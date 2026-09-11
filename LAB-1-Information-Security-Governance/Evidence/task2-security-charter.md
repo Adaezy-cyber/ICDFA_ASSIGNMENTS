@@ -1,6 +1,6 @@
 # Task 2: Information Security Charter
 
-**Prepared by:** Director of Information Security Governance, GlobalHealth Connect (GHC)  
+**Prepared by:** Adaeze Adeteye - The Director of Information Security Governance, GlobalHealth Connect (GHC)  
 **Executive request:** The CFO and Board require a formal mandate for the information security programme.
 
 ---
@@ -58,7 +58,7 @@ The programme operates on four principles:
 ## CFO Justification Memo
 
 **To:** Marcus Thorne, Chief Financial Officer  
-**From:** Director of Information Security Governance  
+**From:** Adaeze Adeteye, Director of Information Security Governance  
 **Re:** Approval of the GHC Information Security Charter
  
 Dear Marcus, 
@@ -69,5 +69,5 @@ Thanks as i await a favorable response.
 
 Best Regards,  
 Adaeze Elizabeth Adeteye
-```
+
 
