@@ -57,17 +57,17 @@ The programme operates on four principles:
 
 ## CFO Justification Memo
 
-**To:** Marcus Thorne, Chief Financial Officer
-**From:** Director of Information Security Governance
+**To:** Marcus Thorne, Chief Financial Officer  
+**From:** Director of Information Security Governance  
 **Re:** Approval of the GHC Information Security Charter
-
+ 
 Dear Marcus, 
 I'm asking for your support in approving this Charter because it directly protects the investments you're already backing. GHC's strategic goals for 2026 depend on trust and continuity that a security incident would put at risk: our target of 25% client growth and expansion into two new regional markets assumes healthcare organisations continue to trust us with patient data, our 99.99% uptime goal assumes we aren't disrupted by an incident like the near-miss we just avoided, and our push into AI-driven diagnostics only works if we can demonstrate secure data-exchange capability to partners and regulators. This Charter gives the security programme a clear mandate and a single accountable owner, which is what turns unpredictable, reactive security spend into a governed, risk-based investment you can actually forecast and evaluate against outcomes.
 
 From an accountability standpoint, the Charter also protects the ROI conversation itself: rather than security spend being justified project-by-project with no consistent rationale, every investment will now be tied back to a documented risk assessment, a named accountable owner and a Board-visible metric. That gives you a much stronger basis for evaluating cost against enterprise risk reduction than the ad-hoc model we're replacing, and it closes the specific gap, unclear ownership and reactive risk management that allowed the recent near-miss to develop without earlier visibility.
 Thanks as i await a favorable response.
 
-Best Regards,
+Best Regards,  
 Adaeze Elizabeth Adeteye
 ```
 
