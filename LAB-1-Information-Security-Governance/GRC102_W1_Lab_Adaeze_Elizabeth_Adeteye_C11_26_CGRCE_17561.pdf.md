@@ -60,8 +60,7 @@ When I stepped into this role, I reviewed GHC's security arrangements against th
 | **Metrics & Reporting** | Technical metrics exist (e.g., patching, phishing simulation results) but are not translated into business impact. | The Board and CFO cannot make informed investment or oversight decisions from technical noise. This also means the Board has no early-warning signal which is exactly why the near-miss caught everyone by surprise. |
 | **Training & Awareness** | Annual training is mandatory, but engagement is low. | A workforce that treats training as a compliance checkbox rather than a genuine practice is the most common initial entry point for the kind of incident GHC narrowly avoided. |
 | **Compliance** | Compliance preparation is audit-driven rather than continuously monitored. | GHC operates in health technology, where regulatory obligations are ongoing, not annual events. Point-in-time compliance leaves gaps open for months at a time between audits. |
-
-**My overall assessment:** GHC does not lack security effort — it lacks a *governance system* that connects that effort to accountability, business decision-making and the Board. The near-miss was not bad luck; it was the predictable outcome of an ad-hoc model that has outgrown a mid-sized, multi-acquisition health-technology company handling sensitive patient data.
+**My overall assessment:** GHC does not lack security effort, it lacks a governance system that connects that effort to accountability, business decision-making and the Board. The near-miss was not bad luck; it was the predictable outcome of an ad-hoc model that has outgrown a mid-sized, multi-acquisition health-technology company handling sensitive patient data.
 
 ### 1.2 Proposed Security Governance Organisational Chart
 
@@ -95,7 +94,7 @@ graph TD
 ```
 
 **Key relationships:**
-- I report functionally to the CEO for mandate and authority, and **directly to the Board** on security posture, risk and metrics — this closes the gap that let the near-miss go undetected until it nearly escalated.
+- I report functionally to the CEO for mandate and authority, and **directly to the Board** on security posture, risk and metrics, this closes the gap that let the near-miss go undetected until it nearly escalated.
 - The CFO is my budget sponsor and a key oversight stakeholder, since security investment competes with GHC's other strategic priorities.
 - The CTO, IT Manager, Compliance Officer, HR Manager and a Development representative sit on the Security Steering Committee, which I chair. This is where cross-functional security decisions (like the password-policy dispute in Task 4) actually get resolved, rather than being escalated straight to the CEO every time.
 - Compliance sits on the committee rather than being a separate silo, because in a health-technology business, regulatory and security risk are the same conversation.
