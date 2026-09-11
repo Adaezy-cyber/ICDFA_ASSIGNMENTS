@@ -167,10 +167,10 @@ Governance accountabilities are defined in detail in the Task 1 RACI matrix. At 
 - **The Compliance Officer** is responsible for regulatory reporting and works with me on continuous compliance monitoring rather than audit-driven, point-in-time compliance.
 
 #### 5. Key Principles
-- **Risk-based** — security effort is prioritised according to the actual risk to GHC's patients, data and operations, not applied uniformly regardless of impact.
-- **Business-aligned** — security decisions are made with GHC's strategic goals in view (market growth, operational efficiency, customer trust, innovation and regulatory excellence), not in isolation from them.
-- **Proportionate** — controls are sized to the risk they address; this Charter explicitly rejects security measures that create disproportionate operational friction without a matching risk reduction (see the Task 4 password-policy example).
-- **Continuously improving** — the programme is assessed against a maturity model (Task 5) and is expected to mature over time rather than remain static.
+- **Risk-based**: security effort is prioritised according to the actual risk to GHC's patients, data and operations, not applied uniformly regardless of impact.
+- **Business-aligned**: security decisions are made with GHC's strategic goals in view (market growth, operational efficiency, customer trust, innovation and regulatory excellence), not in isolation from them.
+- **Proportionate**: controls are sized to the risk they address; this Charter explicitly rejects security measures that create disproportionate operational friction without a matching risk reduction (see the Task 4 password-policy example).
+- **Continuously improving**: the programme is assessed against a maturity model (Task 5) and is expected to mature over time rather than remain static.
 
 #### 6. Reporting Structure
 - I report security posture, risk and key metrics **directly to the Board**, on a cadence agreed with the Board (recommended quarterly, with immediate escalation for high-risk incidents).
@@ -185,8 +185,8 @@ Governance accountabilities are defined in detail in the Task 1 RACI matrix. At 
 
 ### 2.2 CFO Justification Memo
 
-**To:** Marcus Thorne, Chief Financial Officer
-**From:** Director of Information Security Governance
+**To:** Marcus Thorne, Chief Financial Officer  
+**From:** Director of Information Security Governance  
 **Re:** Approval of the GHC Information Security Charter
 
 Marcus, I'm asking for your support in approving this Charter because it directly protects the investments you're already backing. GHC's strategic goals for 2026 depend on trust and continuity that a security incident would put at risk: our target of 25% client growth and expansion into two new regional markets assumes healthcare organisations continue to trust us with patient data, our 99.99% uptime goal assumes we aren't disrupted by an incident like the near-miss we just avoided, and our push into AI-driven diagnostics only works if we can demonstrate secure data-exchange capability to partners and regulators. This Charter gives the security programme a clear mandate and a single accountable owner, which is what turns unpredictable, reactive security spend into a governed, risk-based investment you can actually forecast and evaluate against outcomes.
@@ -202,9 +202,9 @@ From an accountability standpoint, the Charter also protects the ROI conversatio
 
 ### 3.1 Board Executive Summary (One Page)
 
-**To:** Board of Directors, GlobalHealth Connect
-**From:** Director of Information Security Governance
-**Period covered:** September 2025 – February 2026 (6 months)
+**To:** Board of Directors, GlobalHealth Connect  
+**From:** Director of Information Security Governance  
+**Period covered:** September 2025 – February 2026 (6 months)  
 **Overall Posture Assessment: 🟠 AMBER**
 
 **Justification:** No single metric places GHC in a Red (critical) position today, but the trajectory across four of five metrics is moving in the wrong direction at the same time, and the one outcome metric that matters most, high-risk incidents has risen 250% in six months. Amber reflects a posture that is currently manageable but is on a trend line toward Red if the patching decline and incident growth are not actively reversed.
