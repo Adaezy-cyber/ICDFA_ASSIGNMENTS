@@ -1,8 +1,8 @@
 # GlobalHealth Connect (GHC)
 ## Information Security Governance Assignment
 
-Prepared by: Adaeze E. Adeteye
-Role: Director of Information Security Governance
+**Prepared by: Adaeze E. Adeteye**  
+**Role: Director of Information Security Governance**
 
 ---
 
