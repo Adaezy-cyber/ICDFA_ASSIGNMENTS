@@ -58,7 +58,7 @@ Membership is by role, not by named individual, so the committee continues to fu
 
 ## Sample First SSC Meeting Agenda
 
-**Meeting:** Security Steering Committee — Inaugural Meeting  
+**Meeting:** Security Steering Committee - Inaugural Meeting  
 **Chair:** Director of Information Security Governance  
 **Attendees:** CTO, IT Manager, Compliance Officer, Senior Developer, HR Manager
 
