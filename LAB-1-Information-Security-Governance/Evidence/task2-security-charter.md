@@ -1,6 +1,6 @@
-# Task 2 — Information Security Charter
+# Task 2: Information Security Charter
 
-**Prepared by:** Director of Information Security Governance, GlobalHealth Connect (GHC)
+**Prepared by:** Director of Information Security Governance, GlobalHealth Connect (GHC)  
 **Executive request:** The CFO and Board require a formal mandate for the information security programme.
 
 ---
