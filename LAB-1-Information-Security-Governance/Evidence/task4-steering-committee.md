@@ -1,7 +1,7 @@
 
 # Task 4: Security Steering Committee
 
-**Prepared by:** Director of Information Security Governance, GlobalHealth Connect (GHC)  
+**Prepared by:** Adaeze Adeteye, Director of Information Security Governance, GlobalHealth Connect (GHC)  
 **Executive request:** The CEO has asked for a formal Security Steering Committee (SSC) to resolve cross-functional security conflicts, prompted by the current dispute between the CTO and IT Manager over the proposed password policy.
 
 **Conflict context:** The IT Manager, John Smith, has proposed a policy requiring 16-character complex passwords changed every 30 days, with no password-manager integration. The CTO, Elena Rodriguez, believes this creates excessive friction for developers and recommends a more balanced approach built around multi-factor authentication (MFA) and secure password management instead.
@@ -26,11 +26,11 @@ Kindlu note that The SSC does not replace the RACI accountabilities set out in T
 | Member | Role on Committee |
 |---|---|
 | Adaeae Adeteye, Director of Information Security Governance | Chair |
-| Elena Rodriguez, CTO | Member — represents technology strategy, developer productivity, innovation |
-| John Smith, IT Manager | Member — represents infrastructure operations and control implementation |
-| Mark Johnson, Compliance Officer | Member — represents regulatory obligations |
-| Jane Doe, Senior Developer | Member — represents front-line product development impact |
-| Robert Green, HR Manager | Member — represents workforce and onboarding/offboarding impact |
+| Elena Rodriguez, CTO | Member - represents technology strategy, developer productivity, innovation |
+| John Smith, IT Manager | Member - represents infrastructure operations and control implementation |
+| Mark Johnson, Compliance Officer | Member - represents regulatory obligations |
+| Jane Doe, Senior Developer | Member - represents front-line product development impact |
+| Robert Green, HR Manager | Member - represents workforce and onboarding/offboarding impact |
 
 Membership is by role, not by named individual, so the committee continues to function if any member changes position.
 
