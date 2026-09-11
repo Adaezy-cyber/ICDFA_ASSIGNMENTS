@@ -1,8 +1,8 @@
 
 
-**Course:** GRC102 - Information Security Governance, Module 1 (ICDFA)
-**Lab:** Week 1 Practical Laboratory
-**Prepared by:** Adaeze Elizabeth Adeteye (Registration No: C11_26_CGRCE_17561)
+**Course:** GRC102 - Information Security Governance, Module 1 (ICDFA)  
+**Lab:** Week 1 Practical Laboratory  
+**Prepared by:** Adaeze Elizabeth Adeteye (Registration No: C11_26_CGRCE_17561)  
 **Role assumed for this simulation:** Director of Information Security Governance, GlobalHealth Connect (GHC)
 
 ---
