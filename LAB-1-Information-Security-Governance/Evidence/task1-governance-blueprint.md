@@ -1,6 +1,6 @@
-# Task 1 — Governance Blueprint
+# Task 1: Governance Blueprint
 
-**Prepared by:** Adaeze Adeteye - Director of Information Security Governance, GlobalHealth Connect (GHC)
+**Prepared by:** Adaeze E Adeteye - Director of Information Security Governance, GlobalHealth Connect (GHC)
 **Executive request:** CEO Sarah Chen has asked for a formal security governance structure with clear roles, reporting relationships and accountability following the recent data-leakage near-miss.
 
 ---
@@ -18,45 +18,27 @@ When I stepped into this role, I reviewed GHC's security arrangements against th
 | **Training & Awareness** | Annual training is mandatory, but engagement is low. | A workforce that treats training as a compliance checkbox rather than a genuine practice is the most common initial entry point for the kind of incident GHC narrowly avoided. |
 | **Compliance** | Compliance preparation is audit-driven rather than continuously monitored. | GHC operates in health technology, where regulatory obligations are ongoing, not annual events. Point-in-time compliance leaves gaps open for months at a time between audits. |
 
-**My overall assessment:** GHC does not lack security effort, it lacks a "governance system" that connects that effort to accountability, business decision-making and the Board. The near-miss was not bad luck; it was the predictable outcome of an ad-hoc model that has outgrown a mid-sized, multi-acquisition health-technology company handling sensitive patient data.
+**My overall assessment:** GHC does not lack security effort, it lacks a governance system that connects that effort to accountability, business decision-making and the Board. The near-miss was not bad luck; it was the predictable outcome of an ad-hoc model that has outgrown a mid-sized, multi-acquisition health-technology company handling sensitive patient data.
 
 ---
 
 ## 2. Proposed Security Governance Organisational Chart
 
-I am proposing a structure that gives information security a clear line to the Board, without disconnecting it from the day-to-day technology and business functions that have to implement it. The Security Steering Committee detailed in Task 4) is the cross-functional bridge between my office and the business units.
+I am proposing a structure that gives information security a clear line to the Board, without disconnecting it from the day-to-day technology and business functions that have to implement it. The Security Steering Committee (detailed in Task 4) is the cross-functional bridge between my office and the business units.
 
+```mermaid
 graph TD
-
-    Board["Board of Directors<br/>David Miller<br/><i>Provides strategic oversight and governance direction</i>"]
-
-    CEO["Sarah Chen<br/>Chief Executive Officer"]
-
-    DISG["Director of Information Security Governance (Me)<br/><i>Leads security governance, risk oversight, policy management, and board reporting</i>"]
-
-    SSC["Security Steering Committee<br/><i>Cross-functional body for security decision-making and oversight</i>"]
-
-    CTO["Elena Rodriguez<br/>Chief Technology Officer"]
-    CFO["Marcus Thorne<br/>Chief Financial Officer"]
-
-    IT["John Smith<br/>IT Manager"]
-    DEV["Jane Doe<br/>Senior Developer"]
-    COMP["Mark Johnson<br/>Compliance Officer"]
-    HR["Robert Green<br/>HR Manager"]
-    FIN["Emily White<br/>Finance Representative"]
-
-    Board --> CEO
-    CEO --> DISG
-
-    DISG --> SSC
-
-    SSC --> CTO
-    SSC --> CFO
-    SSC --> IT
-    SSC --> DEV
-    SSC --> COMP
-    SSC --> HR
-    SSC --> FIN
+    Board["Board of Directors<br/>(David Miller — Board oversight)"]
+    CEO["Sarah Chen — CEO"]
+    CFO["Marcus Thorne — CFO"]
+    CTO["Elena Rodriguez — CTO"]
+    DISG["Director of Information Security Governance<br/>(me)"]
+    SSC["Security Steering Committee<br/>(cross-functional)"]
+    ITOps["John Smith — IT Manager / IT Operations"]
+    Dev["Jane Doe — Senior Developer / Product Dev"]
+    Compliance["Mark Johnson — Compliance Officer"]
+    HR["Robert Green — HR Manager"]
+    Finance["Emily White — Data Analyst / Finance"]
 
     Board -->|governance oversight, risk appetite| CEO
     CEO -->|mandate & authority| DISG
@@ -72,9 +54,9 @@ graph TD
 ```
 
 **Key relationships:**
-- I report functionally to the CEO for mandate and authority, and directly to the Board on security posture, risk and metrics, this closes the gap that let the near-miss go undetected until it nearly escalated.
+- I report functionally to the CEO for mandate and authority, and **directly to the Board** on security posture, risk and metrics, this closes the gap that let the near-miss go undetected until it nearly escalated.
 - The CFO is my budget sponsor and a key oversight stakeholder, since security investment competes with GHC's other strategic priorities.
-- The CTO, IT Manager, Compliance Officer, HR Manager and a Development representative sit on the Security Steering Committee, which I chair. This is where cross-functional security decisions like the password-policy dispute in Task 4 actually get resolved, rather than being escalated straight to the CEO every time.
+- The CTO, IT Manager, Compliance Officer, HR Manager and a Development representative sit on the Security Steering Committee, which I chair. This is where cross-functional security decisions (like the password-policy dispute in Task 4) actually get resolved, rather than being escalated straight to the CEO every time.
 - Compliance sits on the committee rather than being a separate silo, because in a health-technology business, regulatory and security risk are the same conversation.
 
 ---
@@ -95,7 +77,7 @@ I have covered seven governance activities — one more than the minimum require
 | Security Steering Committee decisions (e.g. password policy) | I | I | I | A | C | R | C |
 | Regulatory / compliance reporting | I | C | I | A | I | I | R |
 
-**Note on Incident Response Planning vs. Execution:** I hold both Accountable and Responsible for planning, because the plan itself is a governance artefact I own end-to-end with input from stakeholders. During a live incident, I remain Accountable for the overall response, but IT Operations and the CTO's team are Responsible for execution, I should not be the one physically containing a breach at 2am, but I am the one who answers for how it was handled.
+**Note on Incident Response Planning vs. Execution:** I hold both Accountable and Responsible for planning, because the plan itself is a governance artefact I own end-to-end with input from stakeholders. During a * live incident, I remain Accountable for the overall response, but IT Operations and the CTO's team are Responsible for execution, I should not be the one physically containing a breach at 2am, but I am the one who answers for how it was handled.
 
 ---
 
@@ -103,7 +85,7 @@ I have covered seven governance activities — one more than the minimum require
 
 I designed this structure around four things the Board specifically asked for: accountability, transparency, business alignment and risk management.
 
-**Accountability.** Every governance activity in the RACI matrix now has exactly one accountable owner. Under the old ad-hoc model, "security ownership and accountability are unclear" that ambiguity is precisely what allowed the near-miss to develop without anyone catching it early. A single accountable owner per activity means that if something goes wrong, GHC knows immediately who to ask and who is expected to have already acted.
+**Accountability.** Every governance activity in the RACI matrix now has exactly one accountable owner. Under the old ad-hoc model, "security ownership and accountability are unclear"  that ambiguity is precisely what allowed the near-miss to develop without anyone catching it early. A single accountable owner per activity means that if something goes wrong, GHC knows immediately who to ask and who is expected to have already acted.
 
 **Transparency.** By reporting directly to the Board rather than only through the CEO, I remove the risk that security information gets filtered, delayed or softened before it reaches the people with ultimate oversight responsibility. This also gives the Board (through David Miller) the "meaningful metrics" he specifically asked for, addressed in Task 3.
 
