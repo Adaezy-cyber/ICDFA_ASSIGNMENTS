@@ -43,7 +43,7 @@ All analysis, interpretation of the GHC scenario data, governance decisions (inc
 
 ---
 
-## Task 1 - Governance Blueprint
+## Task 1: Governance Blueprint
 
 **Prepared by:** Director of Information Security Governance, GlobalHealth Connect (GHC)
 **Executive request:** CEO Sarah Chen has asked for a formal security governance structure with clear roles, reporting relationships and accountability following the recent data-leakage near-miss.
@@ -195,7 +195,7 @@ From an accountability standpoint, the Charter also protects the ROI conversatio
 
 ---
 
-## Task 3 - Board Reporting and Security Metrics
+## Task 3: Board Reporting and Security Metrics
 
 **Prepared by:** Director of Information Security Governance, GlobalHealth Connect (GHC)
 **Executive request:** Board member David Miller has asked for meaningful, business-relevant security metrics rather than raw technical data.
@@ -260,7 +260,7 @@ I excluded several metrics I do track internally (e.g., mean time to detect, vul
 
 ---
 
-## Task 4 - Security Steering Committee
+## Task 4: Security Steering Committee
 
 **Prepared by:** Director of Information Security Governance, GlobalHealth Connect (GHC)
 **Executive request:** The CEO has asked for a formal Security Steering Committee (SSC) to resolve cross-functional security conflicts, prompted by the current dispute between the CTO and IT Manager over the proposed password policy.
@@ -341,7 +341,7 @@ More broadly, this committee is how I intend to keep security decisions aligned 
 
 ---
 
-## Task 5 - Governance Maturity Assessment
+## Task 5: Governance Maturity Assessment
 
 **Prepared by:** Director of Information Security Governance, GlobalHealth Connect (GHC)
 **Executive request:** The Board wants evidence that GHC's new governance arrangements will improve measurably over time, not just exist on paper.
