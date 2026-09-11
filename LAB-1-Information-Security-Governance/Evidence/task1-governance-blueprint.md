@@ -1,96 +1,297 @@
-
-
-# Task 1- Governance Blueprint
-
-**Prepared by:** Director of Information Security Governance, GlobalHealth Connect (GHC)
-**Executive request:** CEO Sarah Chen has asked for a formal security governance structure with clear roles, reporting relationships and accountability following the recent data-leakage near-miss.
-
+# Task 1: Governance Blueprint
+2
+ 
+3
+## 1.0 Executive Summary
+4
+ 
+5
+Following a review of GlobalHealth Connect's current operating environment, recent acquisitions, and the reported data leakage near-miss, I assessed the organization's information security governance posture to determine whether its existing structure adequately supports business growth, regulatory obligations, and protection of sensitive healthcare information.
+6
+ 
+7
+My assessment found that GHC currently operates with an informal and reactive governance model. While individual departments perform certain security-related activities, there is no dedicated governance function responsible for providing strategic oversight, risk ownership, policy coordination, or board-level reporting. As a result, accountability is fragmented, security decisions are inconsistent, and management lacks sufficient visibility into enterprise security risks.
+8
+ 
+9
+To address these issues, I recommend establishing a formal Information Security Governance structure led by a Director of Information Security Governance reporting to the Chief Executive Officer. This structure introduces clear accountability, strengthens oversight, improves cross-functional collaboration, and aligns security activities with GHC's strategic business objectives.
+10
+ 
+11
 ---
-
-## 1. Current-State Governance Gap Assessment
-
-When I stepped into this role, I reviewed GHC's security arrangements against the six governance domains the Board asked me to assess, and I found a pattern I would summarise as "capable people, no system." GHC has grown quickly, two acquisitions plus organic growth but its governance has not grown with it. Below is what I found, and why each gap matters to the business.
-
-| Governance Domain | What I Found | Why This Is a Risk |
-|---|---|---|
-| **Policy & Documentation** | Policies are inconsistent and largely inherited from the two acquired companies; they are not harmonised or kept current. | Conflicting or stale policies give staff no single source of truth, and they undermine GHC's ability to demonstrate consistent controls to regulators or customers evaluating GHC's patient-data handling. |
-| **Roles & Responsibilities** | Security ownership and accountability are unclear across the organisation. | When something goes wrong — as it nearly did — no one is unambiguously accountable for the decision, the control, or the response. This is precisely how a "near-miss" becomes an actual breach next time. |
-| **Risk Management** | The organisation is reactive; there is no formal, proactive risk assessment process. | GHC is making product, M&A and technology decisions without a structured view of the risk each one introduces. Risk is being discovered after the fact rather than managed in advance. |
-| **Metrics & Reporting** | Technical metrics exist (e.g., patching, phishing simulation results) but are not translated into business impact. | The Board and CFO cannot make informed investment or oversight decisions from technical noise. This also means the Board has no early-warning signal — which is exactly why the near-miss caught everyone by surprise. |
-| **Training & Awareness** | Annual training is mandatory, but engagement is low. | A workforce that treats training as a compliance checkbox rather than a genuine practice is the most common initial entry point for the kind of incident GHC narrowly avoided. |
-| **Compliance** | Compliance preparation is audit-driven rather than continuously monitored. | GHC operates in health technology, where regulatory obligations are ongoing, not annual events. Point-in-time compliance leaves gaps open for months at a time between audits. |
-
-**My overall assessment:** GHC does not lack security effort, it lacks a *governance system* that connects that effort to accountability, business decision-making and the Board. The near-miss was not bad luck; it was the predictable outcome of an ad-hoc model that has outgrown a mid-sized, multi-acquisition health-technology company handling sensitive patient data.
-
+12
+ 
+13
+# 1.1 Current-State Governance Gap Assessment
+14
+ 
+15
+## Governance Gap Analysis
+16
+ 
+17
+| Ref | Governance Domain | Current Observation | Root Cause | Business Impact | Risk Rating | Recommended Action |
+18
+|------|------------------|-------------------|------------|----------------|------------|-------------------|
+19
+| G-01 | Security Leadership | No dedicated security governance function exists. Security responsibilities are spread across operational teams. | Historical focus on operational IT rather than enterprise governance. | Security priorities may not receive adequate executive attention, increasing organizational risk exposure. | High | Establish a Director of Information Security Governance role reporting directly to the CEO. |
+20
+| G-02 | Accountability & Ownership | Security responsibilities and decision-making authority are unclear across departments. | Absence of a formal governance framework and RACI model. | Risk of duplicated efforts, unassigned tasks, and delayed decision-making. | High | Implement an enterprise-wide accountability framework supported by a documented RACI matrix. |
+21
+| G-03 | Policy Management | Security policies inherited from acquisitions are inconsistent and not uniformly applied. | Lack of centralized policy ownership and review process. | Increased likelihood of compliance violations and operational confusion. | High | Develop a standardized enterprise policy management framework. |
+22
+| G-04 | Risk Management | Security risk management activities are largely reactive. | No formal risk assessment methodology or risk register. | Emerging risks may remain unidentified until incidents occur. | High | Implement a formal risk management program and governance review cycle. |
+23
+| G-05 | Executive & Board Reporting | Security reporting is informal and lacks consistent key performance indicators. | Governance reporting requirements have not been defined. | Executive leadership may make decisions without a complete understanding of cyber risk exposure. | Medium-High | Establish quarterly risk and security governance reporting to the Board. |
+24
+| G-06 | Incident Governance | Incident response planning exists at an operational level but lacks governance oversight. | Limited executive participation in incident preparedness activities. | Delayed escalation and ineffective crisis decision-making during major incidents. | Medium-High | Introduce executive-level incident governance and escalation procedures. |
+25
+| G-07 | Cross-Functional Coordination | Security-related decisions are often made independently by departments. | No formal cross-functional decision-making body exists. | Conflicting priorities can create inefficiencies and increase organizational risk. | Medium | Establish a Security Steering Committee (SSC). |
+26
+ 
+27
 ---
-
-## 2. Proposed Security Governance Organisational Chart
-
-I am proposing a structure that gives information security a clear line to the Board, without disconnecting it from the day-to-day technology and business functions that have to implement it. The Security Steering Committee  is the cross-functional bridge between my office and the business units.
-
-```mermaid
-graph TD
-    Board["Board of Directors<br/>(David Miller — Board oversight)"]
-    CEO["Sarah Chen — CEO"]
-    CFO["Marcus Thorne — CFO"]
-    CTO["Elena Rodriguez — CTO"]
-    DISG["Director of Information Security Governance<br/>(me)"]
-    SSC["Security Steering Committee<br/>(cross-functional)"]
-    ITOps["John Smith — IT Manager / IT Operations"]
-    Dev["Jane Doe — Senior Developer / Product Dev"]
-    Compliance["Mark Johnson — Compliance Officer"]
-    HR["Robert Green — HR Manager"]
-    Finance["Emily White — Data Analyst / Finance"]
-
-    Board -->|governance oversight, risk appetite| CEO
-    CEO -->|mandate & authority| DISG
-    DISG -->|reports security posture, risk, metrics| Board
-    DISG -->|chairs| SSC
-    CFO -->|budget sponsor / investment oversight| DISG
-    CTO -->|member| SSC
-    ITOps -->|member| SSC
-    Dev -->|member| SSC
-    Compliance -->|member| SSC
-    HR -->|member, informed| SSC
-    Finance -.->|informed on relevant risk| SSC
+28
+ 
+29
+## Business Impact Assessment
+30
+ 
+31
+| Governance Gap | Regulatory Impact | Financial Impact | Operational Impact | Reputational Impact |
+32
+|---------------|------------------|-----------------|-------------------|--------------------|
+33
+| Lack of Security Leadership | Increased compliance exposure | Increased remediation costs | Delayed security decisions | Reduced stakeholder confidence |
+34
+| Unclear Accountability | Audit observations and governance findings | Resource inefficiencies | Inconsistent execution of controls | Perception of weak governance |
+35
+| Weak Risk Management | Potential regulatory breaches | Higher likelihood of financial loss from incidents | Reactive crisis management | Loss of customer trust |
+36
+| Inadequate Board Reporting | Reduced oversight effectiveness | Poor investment prioritization | Limited strategic visibility | Negative investor perception |
+37
+| Policy Inconsistency | Compliance failures | Potential penalties and legal costs | Employee confusion and inconsistent practices | Damage to organizational credibility |
+38
+ 
+39
+---
+40
+ 
+41
+## Governance Risk Summary
+42
+ 
+43
+Based on the evidence reviewed, the most significant governance risks facing GHC are:
+44
+ 
+45
+1. **Lack of clear security accountability** resulting in governance gaps and inconsistent decision-making.
+46
+2. **Absence of proactive risk management processes** leading to unmanaged enterprise risks.
+47
+3. **Insufficient Board oversight and reporting mechanisms** limiting strategic visibility into cybersecurity threats.
+48
+4. **Policy fragmentation caused by acquisitions** increasing compliance and operational risks.
+49
+ 
+50
+Overall, I assess the current governance maturity as operating between **Level 1 (Ad Hoc)** and **Level 2 (Initial)**. The organization has some security-related activities in place; however, governance processes remain largely informal and inconsistently applied.
+51
+ 
+52
+---
+53
+ 
+54
+# 1.2 Proposed Information Security Governance Structure
+55
+ 
+56
+## Future-State Governance Model
+57
+ 
+58
+```text
+59
+BOARD OF DIRECTORS
+60
+│
+61
+▼
+62
+Chief Executive Officer (CEO)
+63
+│
+64
+▼
+65
+Director of Information Security Governance
+66
+│
+67
+┌──────┼───────────┬──────────┬──────────┐
+68
+▼ ▼ ▼ ▼ ▼
+69
+ 
+70
+IT Legal & Human Finance Development
+71
+Operations Compliance Resources Department Department
+72
+Manager Officer Manager Analyst Senior Developer
+73
+ 
+74
+│
+75
+▼
+76
+ 
+77
+Security Steering Committee (SSC)
+78
+ 
+79
+Members:
+80
+• CEO (Executive Sponsor)
+81
+• Director of Information Security Governance
+82
+• CTO
+83
+• IT Manager
+84
+• Compliance Officer
+85
+• HR Manager
+86
+• Finance Representative
+87
 ```
-
-**Key relationships:**
-- I report functionally to the CEO for mandate and authority, and **directly to the Board** on security posture, risk and metrics — this closes the gap that let the near-miss go undetected until it nearly escalated.
-- The CFO is my budget sponsor and a key oversight stakeholder, since security investment competes with GHC's other strategic priorities.
-- The CTO, IT Manager, Compliance Officer, HR Manager and a Development representative sit on the Security Steering Committee, which I chair. This is where cross-functional security decisions (like the password-policy dispute in Task 4) actually get resolved, rather than being escalated straight to the CEO every time.
-- Compliance sits on the committee rather than being a separate silo, because in a health-technology business, regulatory and security risk are the same conversation.
-
+88
+ 
+89
 ---
-
-## 3. RACI Matrix
-
-I have covered seven governance activities — one more than the minimum required — because incident response planning and incident response *execution* are genuinely different accountabilities, and I did not want to blur them.
-
-**Key:** R = Responsible, A = Accountable, C = Consulted, I = Informed
-
-| Governance Activity | Board | CEO | CFO | Director of Info Sec Governance (me) | CTO | IT Manager | Compliance Officer |
-|---|---|---|---|---|---|---|---|
-| Security policy approval | A | C | C | R | C | I | C |
-| Security budget approval | I | A | R | C | C | I | I |
-| Enterprise risk review | I | A | C | R | C | C | C |
-| Incident response planning | I | C | I | A/R | C | C | C |
-| Incident response execution (live incident) | I | I | I | A | R | R | C |
-| Security Steering Committee decisions (e.g. password policy) | I | I | I | A | C | R | C |
-| Regulatory / compliance reporting | I | C | I | A | I | I | R |
-
-**Note on Incident Response Planning vs. Execution:** I hold both Accountable and Responsible for *planning*, because the plan itself is a governance artefact I own end-to-end with input from stakeholders. During a *live* incident, I remain Accountable for the overall response, but IT Operations and the CTO's team are Responsible for execution — I should not be the one physically containing a breach at 2am, but I am the one who answers for how it was handled.
-
+90
+ 
+91
+## Governance Structure Justification
+92
+ 
+93
+| Governance Principle | How the Proposed Structure Supports the Principle |
+94
+|---------------------|--------------------------------------------------|
+95
+| Accountability | Assigns clear ownership of governance activities to a dedicated security governance leader. |
+96
+| Transparency | Establishes formal reporting relationships between management and the Board. |
+97
+| Strategic Alignment | Aligns security initiatives with business objectives, growth plans, and regulatory obligations. |
+98
+| Risk-Based Decision Making | Provides structured oversight of enterprise security risks and mitigation activities. |
+99
+| Separation of Duties | Distinguishes governance oversight from day-to-day IT operations. |
+100
+| Cross-Functional Collaboration | Enables coordinated decision-making through the Security Steering Committee. |
+101
+| Continuous Improvement | Supports ongoing governance reviews, performance measurement, and maturity growth. |
+102
+ 
+103
+### Governance Rationale
+104
+ 
+105
+I recommend positioning the Director of Information Security Governance as an independent governance function reporting directly to the CEO. This reporting structure provides visibility at the executive level while maintaining sufficient independence from operational IT functions.
+106
+ 
+107
+The establishment of a Security Steering Committee will ensure that major security decisions are reviewed from business, technical, compliance, financial, and operational perspectives. This structure reduces decision-making silos and enables balanced security investments that support GHC's strategic objectives.
+108
+ 
+109
 ---
-
-## 4. Governance Rationale
-
-I designed this structure around four things the Board specifically asked for: accountability, transparency, business alignment and risk management.
-
-**Accountability.** Every governance activity in the RACI matrix now has exactly one accountable owner. Under the old ad-hoc model, "security ownership and accountability are unclear" — that ambiguity is precisely what allowed the near-miss to develop without anyone catching it early. A single accountable owner per activity means that if something goes wrong, GHC knows immediately who to ask and who is expected to have already acted.
-
-**Transparency.** By reporting directly to the Board rather than only through the CEO, I remove the risk that security information gets filtered, delayed or softened before it reaches the people with ultimate oversight responsibility. This also gives the Board (through David Miller) the "meaningful metrics" he specifically asked for, addressed in Task 3.
-
-**Business alignment.** The CFO sits close to the security function as budget sponsor, not as an outside auditor of spend after the fact, this means investment decisions and risk decisions happen in the same conversation, not two disconnected ones. The Security Steering Committee also exists specifically so that decisions like the password-policy dispute in Task 4 are resolved with business impact (developer productivity, operational friction) and security risk weighed together, rather than security dictating to the business or vice versa.
-
-**Risk management.** Moving enterprise risk review from reactive to a defined, Accountable activity that I own means GHC's risk posture is assessed on an ongoing basis, not rediscovered after an incident. This directly addresses the biggest gap I found in the current-state assessment: an organisation reacting to risk instead of managing it.
+110
+ 
+111
+# 1.3 RACI Matrix
+112
+ 
+113
+## Governance Responsibility Matrix
+114
+ 
+115
+| Governance Activity | Board | CEO | Director of Information Security Governance | IT Manager | Compliance Officer | HR Manager | CTO |
+116
+|-------------------|-------|-----|---------------------------------------------|------------|-------------------|-----------|-----|
+117
+| Security Policy Development | I | C | A/R | C | C | C | C |
+118
+| Security Policy Approval | A | C | R | I | C | I | I |
+119
+| Enterprise Risk Assessment | I | A | R | C | C | I | C |
+120
+| Risk Review & Acceptance | A | C | R | C | C | I | C |
+121
+| Compliance Monitoring | I | C | C | I | A/R | I | I |
+122
+| Security Awareness Programme | I | A | R | C | C | R | I |
+123
+| Incident Response Planning | I | A | R | R | C | C | C |
+124
+| Board Security Reporting | A | C | R | I | I | I | I |
+125
+| Third-Party Security Reviews | I | C | A/R | C | C | I | C |
+126
+| Governance Maturity Reviews | I | C | A/R | C | C | C | C |
+127
+ 
+128
+### Key
+129
+ 
+130
+- **R** = Responsible
+131
+- **A** = Accountable
+132
+- **C** = Consulted
+133
+- **I** = Informed
+134
+ 
+135
+---
+136
+ 
+137
+## RACI Analysis
+138
+ 
+139
+The proposed RACI model addresses one of the most significant governance weaknesses identified during the assessment, namely the lack of clearly defined accountability. Each governance activity has a designated accountable owner, ensuring ownership cannot be transferred or ignored.
+140
+ 
+141
+The model also promotes transparency by identifying stakeholders who must be consulted before major governance decisions are made. This approach reduces ambiguity, improves auditability, and strengthens organizational accountability across all business functions.
+142
+ 
+143
+---
+144
+ 
+145
+# 1.4 Conclusion
+146
+ 
+147
+The assessment confirms that GlobalHealth Connect's current information security governance arrangements are insufficient to support the organization's ongoing growth, regulatory obligations, and risk management requirements. The primary governance challenges relate to fragmented ownership, inconsistent policies, limited executive oversight, and the absence of a formal security governance framework.
+148
+ 
+149
+The proposed governance structure addresses these weaknesses by establishing dedicated governance leadership, defining accountability through a RACI model, introducing Board-level reporting, and creating a Security Steering Committee to support cross-functional decision-making. Collectively, these measures will improve accountability, transparency, business alignment, and enterprise risk management while providing a foundation for future governance maturity improvements.
