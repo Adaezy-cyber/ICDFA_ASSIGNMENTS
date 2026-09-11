@@ -1,6 +1,6 @@
 # Task 1: Governance Blueprint
 
-**Prepared by:** Adaeze E Adeteye - Director of Information Security Governance, GlobalHealth Connect (GHC)
+**Prepared by:** Adaeze E Adeteye - Director of Information Security Governance, GlobalHealth Connect (GHC)  
 **Executive request:** CEO Sarah Chen has asked for a formal security governance structure with clear roles, reporting relationships and accountability following the recent data-leakage near-miss.
 
 ---
