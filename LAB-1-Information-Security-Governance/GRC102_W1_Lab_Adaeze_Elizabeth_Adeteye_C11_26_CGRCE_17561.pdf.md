@@ -50,14 +50,14 @@ All analysis, interpretation of the GHC scenario data, governance decisions (inc
 
 ### 1.1 Current-State Governance Gap Assessment
 
-When I stepped into this role, I reviewed GHC's security arrangements against the six governance domains the Board asked me to assess, and I found a pattern I would summarise as "capable people, no system." GHC has grown quickly — two acquisitions plus organic growth — but its governance has not grown with it. Below is what I found, and why each gap matters to the business.
+When I stepped into this role, I reviewed GHC's security arrangements against the six governance domains the Board asked me to assess, and I found a pattern I would summarise as "capable people, no system." GHC has grown quickly, two acquisitions plus organic growth but its governance has not grown with it. Below is what I found, and why each gap matters to the business.
 
 | Governance Domain | What I Found | Why This Is a Risk |
 |---|---|---|
 | **Policy & Documentation** | Policies are inconsistent and largely inherited from the two acquired companies; they are not harmonised or kept current. | Conflicting or stale policies give staff no single source of truth, and they undermine GHC's ability to demonstrate consistent controls to regulators or customers evaluating GHC's patient-data handling. |
-| **Roles & Responsibilities** | Security ownership and accountability are unclear across the organisation. | When something goes wrong — as it nearly did — no one is unambiguously accountable for the decision, the control, or the response. This is precisely how a "near-miss" becomes an actual breach next time. |
+| **Roles & Responsibilities** | Security ownership and accountability are unclear across the organisation. | When something goes wrong as it nearly did, no one is unambiguously accountable for the decision, the control, or the response. This is precisely how a "near-miss" becomes an actual breach next time. |
 | **Risk Management** | The organisation is reactive; there is no formal, proactive risk assessment process. | GHC is making product, M&A and technology decisions without a structured view of the risk each one introduces. Risk is being discovered after the fact rather than managed in advance. |
-| **Metrics & Reporting** | Technical metrics exist (e.g., patching, phishing simulation results) but are not translated into business impact. | The Board and CFO cannot make informed investment or oversight decisions from technical noise. This also means the Board has no early-warning signal — which is exactly why the near-miss caught everyone by surprise. |
+| **Metrics & Reporting** | Technical metrics exist (e.g., patching, phishing simulation results) but are not translated into business impact. | The Board and CFO cannot make informed investment or oversight decisions from technical noise. This also means the Board has no early-warning signal which is exactly why the near-miss caught everyone by surprise. |
 | **Training & Awareness** | Annual training is mandatory, but engagement is low. | A workforce that treats training as a compliance checkbox rather than a genuine practice is the most common initial entry point for the kind of incident GHC narrowly avoided. |
 | **Compliance** | Compliance preparation is audit-driven rather than continuously monitored. | GHC operates in health technology, where regulatory obligations are ongoing, not annual events. Point-in-time compliance leaves gaps open for months at a time between audits. |
 
