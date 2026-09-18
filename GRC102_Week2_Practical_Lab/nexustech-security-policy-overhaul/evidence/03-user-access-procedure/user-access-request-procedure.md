@@ -1,4 +1,4 @@
-# Evidence Bundle 03 — User Access Request Procedure
+# Evidence Bundle 03: User Access Request Procedure
 
 ## Document Control
 
@@ -7,16 +7,14 @@
 | **Document Title** | User Access Request Procedure |
 | **Document ID** | NTS-ISP-PRO-001 |
 | **Version** | 1.0 |
-| **Owner** | Information Security Manager |
+| **Owner** | Adaeze Adeteye, Information Security Manager |
 | **Status** | Approved |
 | **Effective Date** | 18 September 2026 |
 | **Review Date** | 18 September 2027 |
 
 ## 1. Purpose
 
-This procedure establishes a consistent process for requesting, approving, provisioning, reviewing, and recording user access to NexusTech systems and information.
-
-The objective is to support least privilege, role-based access, accountability, and an auditable record of access decisions.
+This procedure establishes a consistent process for requesting, approving, provisioning, reviewing, and recording user access to NexusTech systems and information. The objective is to support least privilege, role-based access, accountability, and an auditable record of access decisions.
 
 ## 2. Scope
 
@@ -36,48 +34,45 @@ Before access is provisioned, the request should identify:
 
 ## 4. Procedure
 
-### Step 1 — Receive the Request
+### Step 1: Receive the Request
 
-Access requests must be submitted through the approved service-management ticket or workflow.
+Access requests must be submitted through the approved service-management ticket or workflow. Requests submitted through informal channels should be redirected to the approved workflow before access is granted, except where the emergency process applies.
 
-Requests submitted through informal channels should be redirected to the approved workflow before access is granted, except where the emergency process applies.
-
-### Step 2 — Verify the User
+### Step 2: Verify the User
 
 The responsible IT/service desk function verifies that the requester is an authorised NexusTech user and that the request relates to an active engagement.
 
-### Step 3 — Verify Approvals
+### Step 3: Verify Approvals
 
 The request must contain the required manager approval and, where applicable, system/data-owner approval.
-
 Requests lacking required approval are returned for completion rather than provisioned.
 
-### Step 4 — Determine the Appropriate Role
+### Step 4: Determine the Appropriate Role
 
 The responsible team determines the minimum access required for the user's job function.
 
 Access should follow:
 
-- **role-based access control** where applicable;
-- **least privilege**;
+- role-based access control where applicable;
+- least privilege;
 - separation of incompatible duties where relevant; and
 - relevant security/classification requirements.
 
-### Step 5 — Provision Access
+### Step 5: Provision Access
 
 IT provisions the approved access using the organisation's authorised identity and access-management mechanisms.
 
 The procedure does not prescribe vendor-specific configuration steps; those belong in technical procedures or standards where required.
 
-### Step 6 — Perform a Post-Provisioning Check
+### Step 6: Perform a Post-Provisioning Check
 
 The responsible team confirms that the access granted matches the approved request and that no unnecessary permissions were introduced.
 
-### Step 7 — Notify the User and Manager
+### Step 7: Notify the User and Manager
 
 The user and relevant manager are notified that access has been provisioned and, where appropriate, reminded of their responsibilities for protecting the account and information.
 
-### Step 8 — Capture Evidence
+### Step 8: Capture Evidence
 
 The access record should retain appropriate evidence, such as:
 
@@ -89,9 +84,9 @@ The access record should retain appropriate evidence, such as:
 - responsible approver/provisioner;
 - relevant completion notes.
 
-### Step 9 — Close the Request
+### Step 9: Close the Request
 
-Once provisioning and verification are complete, the ticket/workflow is updated and closed with sufficient evidence to support future review or audit.
+Once provisioning and verification are complete, the ticketor workflow is updated and closed with sufficient evidence to support future review or audit.
 
 ## 5. Emergency Access
 
