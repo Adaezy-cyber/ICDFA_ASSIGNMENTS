@@ -5,7 +5,7 @@
 **Date:** 18 September 2027  
 **Subject:** Annual AUP Review and Recommended Updates
 
-Dear team,
+Dear team,  
 This is to notify you that the Acceptable Use Policy should be reviewed following the scheduled annual review and earlier when significant changes affect the risk environment. In the past year, NexusTech migrated its primary database to AWS, which changes the technology and access context in which company and client information is handled. A minor incident also occurred in which an employee shared a sensitive document through personal cloud storage. These events provide clear review triggers because they may expose gaps in the existing acceptable-use requirements, cloud usage expectations, information-sharing controls, and user understanding. The review should also consider regulatory or contractual changes, significant security incidents, audit findings, recurring user misunderstandings, and material changes to systems or business operations.
 
 The review should begin by confirming the current policy scope, ownership, approval status, and related standards/procedures. Relevant stakeholders—including Information Security, IT/Cloud, HR, Legal/Compliance, business managers, and data/system owners—should be consulted to identify operational changes and recurring issues. The review should then examine available evidence such as policy acknowledgements, training results, access records, incident records, audit findings, exception records, and relevant risk assessments. The results should be compared against the current threat and risk environment, including the AWS migration and the personal-cloud incident, to determine whether requirements remain clear, proportionate, and enforceable.
@@ -16,6 +16,6 @@ Thanks
 
 Kind Regards, 
 
-Yours faithfully, 
-Adaeze Adeteye,
+Yours faithfully,  
+Adaeze Adeteye,  
 *Information Security Manager*
