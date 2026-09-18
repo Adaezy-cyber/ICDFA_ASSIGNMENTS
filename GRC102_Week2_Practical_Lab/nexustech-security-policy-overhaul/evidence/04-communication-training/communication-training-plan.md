@@ -1,4 +1,4 @@
-# Evidence Bundle 04 — AUP Communication and Training Plan
+# Evidence Bundle 04: AUP Communication and Training Plan
 
 ## 1. Objective
 
@@ -17,32 +17,32 @@ The objective is to ensure that NexusTech users understand the new Acceptable Us
 
 ## 3. Rollout Timeline
 
-### Day 1 — Announcement
+### Day 1: Announcement
 
 - Publish the approved AUP.
 - Send organisation-wide announcement.
 - Explain why the policy was introduced and what changed.
 - Provide access to the policy and training.
 
-### Days 2–5 — Training
+### Days 2–5: Training
 
 - Deliver short training sessions.
 - Use practical scenarios rather than policy text alone.
 - Provide role-specific guidance for IT, managers, HR, and contractors.
 
-### Day 7 — Initial Measurement
+### Day 7: Initial Measurement
 
 - Review acknowledgement and training completion.
 - Identify teams or individuals with outstanding actions.
 - Collect common questions and areas of misunderstanding.
 
-### Day 14 — Follow-Up
+### Day 14: Follow-Up
 
 - Send targeted reminders.
 - Address repeated misunderstandings.
 - Escalate persistent non-compliance through the appropriate management/HR process.
 
-## 4. Acknowledgement / Attestation
+## 4. Acknowledgement
 
 Users should acknowledge that they:
 
