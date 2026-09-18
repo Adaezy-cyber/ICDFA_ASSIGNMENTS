@@ -32,12 +32,6 @@ AICPA & CIMA.
 
 [2017 Trust Services Criteria with Revised Points of Focus — 2022](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022)[cite: 1]
 
-## Course Material
-
-International Cybersecurity and Digital Forensics Academy.
-
-GRC102 – Information Security Governance, Week 2:
-Developing Security Policies and Procedures[cite: 1].
 
 **Kindly note that This portfolio does not claim that NexusTech is ISO 27001 certified or SOC 2 compliant. The evidence demonstrates how policy structure and governance activities can be designed with those frameworks in mind**
 
