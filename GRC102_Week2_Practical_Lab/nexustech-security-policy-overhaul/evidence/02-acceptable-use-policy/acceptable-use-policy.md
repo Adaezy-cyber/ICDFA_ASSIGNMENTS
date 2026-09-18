@@ -1,4 +1,4 @@
-# Evidence Bundle 02 — NexusTech Acceptable Use Policy
+# Evidence Bundle 02- NexusTech Acceptable Use Policy
 
 ## Document Control
 
@@ -8,7 +8,7 @@
 | **Document ID** | NTS-ISP-AUP-001 |
 | **Version** | 1.0 |
 | **Status** | Approved |
-| **Owner** | Information Security Manager |
+| **Owner** | Adaeze Adeteye, Information Security Manager |
 | **Approver** | Marcus Vance, CEO |
 | **Effective Date** | 18 September 2026 |
 | **Review Date** | 18 September 2027 |
@@ -22,7 +22,7 @@ This policy defines acceptable and prohibited use of NexusTech information syste
 
 This policy applies to all NexusTech employees, contractors, consultants, interns, and other authorised users who access NexusTech systems, devices, networks, applications, or information.
 
-It applies to company-owned and authorised personally owned devices when they are used to access NexusTech resources.
+It also applies to company-owned and authorised personally owned devices when they are used to access NexusTech resources.
 
 ## 3. Acceptable Use
 
