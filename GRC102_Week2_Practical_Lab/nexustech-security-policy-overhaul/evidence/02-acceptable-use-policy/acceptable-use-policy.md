@@ -1,4 +1,4 @@
-# Evidence Bundle 02- NexusTech Acceptable Use Policy
+# Evidence Bundle 02: NexusTech Acceptable Use Policy
 
 ## Document Control
 
