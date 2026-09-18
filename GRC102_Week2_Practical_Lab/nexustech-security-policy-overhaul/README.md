@@ -1,6 +1,6 @@
 # NexusTech Security Policy Overhaul
 
-**GRC102 – Information Security Governance | Module 2: Developing Security Policies and Procedures**
+**GRC102 – Information Security Governance | Module 2: Developing Security Policies and Procedures**  
 **Adaeze Elizabeth Adeteye - C11/26/CGRCE/17561**
 ## Project Overview
 
