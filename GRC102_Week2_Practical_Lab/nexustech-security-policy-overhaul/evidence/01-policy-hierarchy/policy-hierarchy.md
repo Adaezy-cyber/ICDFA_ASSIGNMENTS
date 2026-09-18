@@ -1,4 +1,4 @@
-# Evidence Bundle 01 — Policy Hierarchy and Categorisation
+# Evidence Bundle 01: Policy Hierarchy and Categorisation
 
 ## 1. Document Hierarchy
 
