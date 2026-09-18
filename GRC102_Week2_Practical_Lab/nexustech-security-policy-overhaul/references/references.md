@@ -8,7 +8,7 @@ The following sources identified in the GRC102 Week 2 lab assignment brief as su
 4. **NIST Cybersecurity Framework (CSF) 2.0**: Cybersecurity risk management framework.
 5. **AICPA SOC 2 Trust Services Criteria**: Criteria covering security and related trust services.
 
-## Kindly note that This portfolio does not claim that NexusTech is ISO 27001 certified or SOC 2 compliant. The evidence demonstrates how policy structure and governance activities can be designed with those frameworks in mind.
+**Kindly note that This portfolio does not claim that NexusTech is ISO 27001 certified or SOC 2 compliant. The evidence demonstrates how policy structure and governance activities can be designed with those frameworks in mind**
 
 ## Academic Note
 
