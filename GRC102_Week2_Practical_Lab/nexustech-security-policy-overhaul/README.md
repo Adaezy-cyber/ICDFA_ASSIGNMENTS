@@ -4,9 +4,7 @@
 **Adaeze Elizabeth Adeteye - C11/26/CGRCE/17561**
 ## Project Overview
 
-This is a scenario-based governance exercise for NexusTech Solutions, a rapidly growing mid-sized software company that expanded from 50 to 250 employees and now serves financial and healthcare clients.
-
-The organisation's existing five-year-old "IT Rules" document mixes policy intent, technical configuration instructions, and vague recommendations. This creates inconsistent practices, unclear accountability, and compliance gaps.
+This is a scenario-based governance exercise for NexusTech Solutions, a rapidly growing mid-sized software company that expanded from 50 to 250 employees and now serves financial and healthcare clients. The organisation's existing five-year-old "IT Rules" document mixes policy intent, technical configuration instructions, and vague recommendations. This creates inconsistent practices, unclear accountability, and compliance gaps.
 
 **My Role:** Information Security Manager
 
