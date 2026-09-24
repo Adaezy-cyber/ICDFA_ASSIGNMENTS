@@ -1,4 +1,4 @@
-# Evidence Bundle 4 — RACI Accountability Matrix
+# Evidence Bundle 4: RACI Accountability Matrix
 
 ## RACI Key
 
