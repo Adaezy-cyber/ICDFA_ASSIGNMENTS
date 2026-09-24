@@ -1,11 +1,11 @@
-# Evidence Bundle 3 — Security Governance Committee Ecosystem
+# Evidence Bundle 3: Security Governance Committee Ecosystem
 
 ## 1. Committee Structure
 
 ### Executive Security Council (ESC)
 **Purpose:** Strategic executive oversight of cyber risk, resilience, security investment and cross-functional trade-offs.  
 **Chair:** CEO.  
-**Members:** CISO, CRO/Risk, Legal/Compliance, Finance, HR and relevant BU Leaders; IT attends as required.  
+**Members:** CISO, CRO/Risk, Legal/Compliance, Finance, HR and relevant Business Unit Leaders; IT attends as required.  
 **Cadence:** Monthly; emergency meetings for material events.
 
 ### Security Governance Committee (SGC)
@@ -17,7 +17,7 @@
 ### Cloud and Technology Security Working Group
 **Purpose:** Specialist review of architecture, cloud, vulnerabilities and technology risks.  
 **Chair:** CISO delegate/security architecture lead.  
-**Members:** IT, Security, relevant BU representatives, Legal/Compliance and CRO/Risk as needed.  
+**Members:** IT, Security, relevant Business Units representatives, Legal or Compliance and CRO as needed.  
 **Cadence:** Biweekly and ad hoc.
 
 ## 2. Interaction Diagram
@@ -25,7 +25,7 @@
 ```text
                          BOARD
                            ▲
-                           │ Material risk / assurance
+                           │ Material risk or assurance
                            │
                          CEO
                            ▲
@@ -94,17 +94,17 @@
 
 | Month | Key activity | Forum |
 |---|---|---|
-| Jan | Annual strategy/risk refresh | ESC + SGC |
+| Jan | Annual strategy or risk refresh | ESC & SGC |
 | Feb | Access governance review | SGC |
-| Mar | Awareness programme review | SGC + HR |
+| Mar | Awareness programme review | SGC & HR |
 | Apr | Third-party risk review | SGC |
-| May | Cloud/architecture risk review | Working Group + SGC |
-| Jun | Mid-year Board cyber-risk reporting | ESC + Board |
-| Jul | Business continuity/recovery review | SGC |
-| Aug | Vulnerability trend review | Working Group + SGC |
-| Sep | Policy/standards review | SGC + ESC |
-| Oct | Security investment planning | ESC + Finance |
-| Nov | Enterprise cyber-risk refresh | CRO + CISO |
-| Dec | Governance effectiveness review | ESC + SGC |
+| May | Cloud/architecture risk review | Working Group & SGC |
+| Jun | Mid-year Board cyber-risk reporting | ESC & Board |
+| Jul | Business continuity or recovery review | SGC |
+| Aug | Vulnerability trend review | Working Group & SGC |
+| Sep | Policy/standards review | SGC & ESC |
+| Oct | Security investment planning | ESC & Finance |
+| Nov | Enterprise cyber-risk refresh | CRO & CISO |
+| Dec | Governance effectiveness review | ESC & SGC |
 
-**Monthly:** SGC risk, metrics and actions. **Quarterly:** Executive/Board trend reporting. **As required:** Material incident or urgent risk escalation.
+**Monthly:** SGC risk, metrics and actions. **Quarterly:** Executive or Board trend reporting. **As required:** Material incident or urgent risk escalation.
