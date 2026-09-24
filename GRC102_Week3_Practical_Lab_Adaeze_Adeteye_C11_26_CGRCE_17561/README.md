@@ -51,12 +51,12 @@ As The Lead Security Governance Consultant, this project transitions TechGlobal 
 
 - Provided complete Terms of Reference (ToR), a sample meeting agenda, a working decision log, and a 12-month recurring governance calendar.
 
-**4. RACI Accountability Matrix (Task 4)**
+**4. RACI Accountability Matrix and Workflow (Task 4 & 5)**
 - Mapped 15 mandatory governance activities across all key stakeholders ensuring a strict "single Accountable role" rule per activity.
 
 - Wrote an implementation guide for managers governing planning, approvals, and incident management phases.
 
-**5. Risk Escalation & Segregation of Duties (Task 5)**
+**5. Risk Escalation & Segregation of Duties (Task 6)**
 - Designed a 3-level Cyber-Risk Escalation Workflow (Operational, Executive, and Material/Board) with clear thresholds and response times.
 
 - Populated a Segregation-of-Duties (SoD) Weakness Register identifying 5 high-risk conflicts in the legacy model and providing practical corrective controls.
