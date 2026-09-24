@@ -1,4 +1,4 @@
-# Evidence Bundle 6 — Segregation of Duties and Assurance
+# Evidence Bundle 6: Segregation of Duties and Assurance
 
 ## 1. Weakness Register
 
@@ -41,10 +41,10 @@ The record should identify:
 
 | Assurance question | Evidence |
 |---|---|
-| Was the correct person accountable? | RACI + decision log |
-| Was risk acceptance authorised? | Risk record + approval |
-| Was independent challenge provided? | CRO/Risk review / minutes |
-| Was the decision implemented? | Action/technical evidence |
+| Was the correct person accountable? | RACI & decision log |
+| Was risk acceptance authorised? | Risk record & approval |
+| Was independent challenge provided? | CRO review or  minutes |
+| Was the decision implemented? | Action or technical evidence |
 | Was residual risk reviewed? | Updated risk assessment |
 | Was material risk escalated on time? | Escalation record |
 | Were overdue actions followed up? | Action register |
