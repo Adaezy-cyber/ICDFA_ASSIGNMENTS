@@ -1,4 +1,4 @@
-# Evidence Bundle 1 — Governance Architecture and Stakeholder Map
+# Evidence Bundle 1 - Governance Architecture and Stakeholder Map
 
 ## 1. Governance Gap Assessment
 
@@ -65,8 +65,8 @@ TechGlobal has 2,500 employees across five offices. A model centred on one IT ex
 
 The proposed model uses **central governance with distributed execution**. Enterprise security direction remains consistent while Business Units retain ownership of business outcomes and local implementation. This avoids creating separate security silos in each office.
 
-The CISO becomes the central security governance leader rather than the sole risk owner. CRO/Risk provides enterprise-risk challenge and aggregation. Legal/Compliance, Finance, HR and IT contribute specialist authority within their domains. The CEO provides executive decision authority and connects material security matters to the Board.
+The CISO becomes the central security governance leader rather than the sole risk owner. CRO provides enterprise-risk challenge and aggregation. Legal/Compliance, Finance, HR and IT contribute specialist authority within their domains. The CEO provides executive decision authority and connects material security matters to the Board.
 
 The committee ecosystem creates repeatable decision forums. The RACI matrix converts the structure into explicit decision rights. The escalation model ensures that risk moves beyond operational management when authority, impact or materiality requires it.
 
-The design also improves auditability: a material decision can be traced from identification through assessment, decision authority, treatment, review and closure rather than relying on informal conversations or individual memory.
+The design also improves auditability un that, a material decision can be traced from identification through assessment, decision authority, treatment, review and closure rather than relying on informal conversations or individual memory.
