@@ -1,7 +1,8 @@
 # TechGlobal Governance Transformation Simulation
 
-**GRC102 - Information Security Governance | Module 3: Roles and Responsibilities in Security Governance**
-**By Adaeze Elizabeth Adeteye  I.D: C11/26/CGRCE/17561**
+**GRC102 - Information Security Governance | Module 3: Roles and Responsibilities in Security Governance**  
+**By Adaeze Elizabeth Adeteye  
+I.D: C11/26/CGRCE/17561**
 
 ## Executive Summary
 
