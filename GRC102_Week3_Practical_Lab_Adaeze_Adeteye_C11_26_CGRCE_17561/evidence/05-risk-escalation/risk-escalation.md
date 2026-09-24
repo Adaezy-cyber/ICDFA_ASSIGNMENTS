@@ -1,4 +1,4 @@
-# Evidence Bundle 5 — Cyber-Risk Escalation
+# Evidence Bundle 5:  Cyber-Risk Escalation
 
 ## 1. Major Cyber-Risk Escalation Workflow
 
@@ -43,7 +43,7 @@ Risk / Incident / Control Issue Identified
 |---|---|---|---|---|
 | Level 1 – Operational | Contained issue, low/moderate impact, within operational authority | Operational owner/management | CISO/security function | Same business day or agreed SLA |
 | Level 2 – Executive | Significant disruption, cross-business impact, major control failure, material resource need, or beyond operational authority | CEO / Executive Security Council | CISO, CRO, relevant executives, Legal as needed | Prompt executive review |
-| Level 3 – Material / Board | Material enterprise exposure, major incident, significant regulatory/contractual implications, substantial interruption, or beyond executive authority | CEO with Board oversight/decision where applicable | Board, CEO, CISO, CRO, Legal and affected executives | Immediate escalation appropriate to event |
+| Level 3 – Material / Board | Material enterprise exposure, major incident, significant regulatory or contractual implications, substantial interruption, or beyond executive authority | CEO with Board oversight or decision where applicable | Board, CEO, CISO, CRO, Legal and affected executives | Immediate escalation appropriate to event |
 
 These are governance thresholds, not replacements for technical incident-severity classifications. Technical severity feeds the governance assessment alongside business, legal, financial and enterprise-risk considerations.
 
@@ -86,7 +86,7 @@ Each Level 2/3 decision should record:
 
 ## 5. Operating Rule
 
-Escalation does not mean abandoning operational ownership. IT continues containment/remediation while governance authority moves to the appropriate decision-maker.
+Escalation does not mean abandoning operational ownership. IT continues containment or remediation while governance authority moves to the appropriate decision-maker.
 
 For a material issue:
 - IT continues technical containment;
