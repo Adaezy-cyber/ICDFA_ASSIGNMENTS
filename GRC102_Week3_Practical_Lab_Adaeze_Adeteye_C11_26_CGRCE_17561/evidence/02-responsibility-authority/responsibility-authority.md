@@ -1,4 +1,4 @@
-# Evidence Bundle 2 — Governance Responsibility and Authority
+# Evidence Bundle 2: Governance Responsibility and Authority
 
 ## 1. Cross-Functional Responsibility Matrix
 
@@ -68,8 +68,8 @@
 
 **IT vs Risk Acceptance:** IT supplies technical evidence; CISO assesses security; CRO/Risk challenges; the authorised risk owner accepts or rejects residual risk.
 
-**CISO vs CRO/Risk:** CISO owns security analysis; CRO/Risk owns enterprise-risk methodology and challenge. Material disagreement is documented and escalated rather than resolved informally.
+**CISO vs CRO:** CISO owns security analysis; CRO owns enterprise-risk methodology and challenge. Material disagreement is documented and escalated rather than resolved informally.
 
-**Business Growth vs Security:** BU explains business need; CISO assesses security; Legal/Compliance advises; CRO/Risk assesses enterprise exposure; authorised executive decides.
+**Business Growth vs Security:** Board explains business need; CISO assesses security; Legal or Compliance advises; CRO assesses enterprise exposure; authorised executive decides.
 
 **Finance vs Security Investment:** Finance challenges cost/value assumptions; CISO documents risk/control need; CEO resolves strategic trade-offs; material residual risk remains visible.
