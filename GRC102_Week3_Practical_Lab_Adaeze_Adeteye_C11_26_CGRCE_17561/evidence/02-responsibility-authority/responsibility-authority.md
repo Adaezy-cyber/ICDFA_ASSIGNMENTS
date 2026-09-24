@@ -66,10 +66,10 @@
 
 ## 3. Conflict Resolution
 
-**IT vs Risk Acceptance:** IT supplies technical evidence; CISO assesses security; CRO/Risk challenges; the authorised risk owner accepts or rejects residual risk.
+**IT vs Risk Acceptance:** IT supplies technical evidence; CISO assesses security; CRO challenges the decision ; the authorised risk owner accepts or rejects residual risk.
 
 **CISO vs CRO:** CISO owns security analysis; CRO owns enterprise-risk methodology and challenge. Material disagreement is documented and escalated rather than resolved informally.
 
 **Business Growth vs Security:** Board explains business need; CISO assesses security; Legal or Compliance advises; CRO assesses enterprise exposure; authorised executive decides.
 
-**Finance vs Security Investment:** Finance challenges cost/value assumptions; CISO documents risk/control need; CEO resolves strategic trade-offs; material residual risk remains visible.
+**Finance vs Security Investment:** Finance challenges cost or value assumptions; CISO documents risk or control need; CEO resolves strategic trade-offs; material residual risk remains visible.
