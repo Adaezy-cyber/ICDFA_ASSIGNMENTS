@@ -1,13 +1,12 @@
 # GRC102 Week 4 Practical Laboratory
 ## Linux Security Monitoring and Auditing: From Technical Evidence to Governance Assurance
 
-**Institution:** International Cybersecurity and Digital Forensics Academy (ICDFA)
-**Course:** GRC102, Information Security Governance
-**Module:** Module 4, Monitoring and Auditing Security Controls
-**Week:** Week 4 (26 September to 02 October 2026)
+**Institution:** International Cybersecurity and Digital Forensics Academy (ICDFA)  
+**Course:** GRC102, Information Security Governance  
+**Module:** Module 4, Monitoring and Auditing Security Controls  
+**Week:** Week 4
 **Student:** Adaeze Elizabeth Adeteye
 **Student ID:** C11/26/CGRCE/17561
-**Submission:** Written report with supporting evidence (15 screenshots in `evidence/`)
 
 ---
 
@@ -635,7 +634,7 @@ linux-security-monitoring-auditing/
 
 This repository contains the written control-assurance report and supporting screenshots for the ICDFA GRC102 Week 4 Practical Laboratory. The observations are based on the supplied lab evidence, and evidence limitations are disclosed rather than filled with estimated results. The activity was completed in an authorised training environment.
 
-**Author:** Adaeze Elizabeth Adeteye
-**Student ID:** C11/26/CGRCE/17561
-**Course:** GRC102, Information Security Governance
+**Author:** Adaeze Elizabeth Adeteye  
+**Student ID:** C11/26/CGRCE/17561  
+**Course:** GRC102, Information Security Governance  
 **Lab:** Week 4, Linux Security Monitoring and Auditing
