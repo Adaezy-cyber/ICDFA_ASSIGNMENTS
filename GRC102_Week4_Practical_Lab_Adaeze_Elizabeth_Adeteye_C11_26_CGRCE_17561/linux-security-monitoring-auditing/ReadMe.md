@@ -4,8 +4,8 @@
 **Institution:** International Cybersecurity and Digital Forensics Academy (ICDFA)  
 **Course:** GRC102, Information Security Governance  
 **Module:** Module 4, Monitoring and Auditing Security Controls  
-**Week:** Week 4
-**Student:** Adaeze Elizabeth Adeteye
+**Week:** Week 4  
+**Student:** Adaeze Elizabeth Adeteye  
 **Student ID:** C11/26/CGRCE/17561
 
 ---
