@@ -1,8 +1,9 @@
 # GRC102: Practical Lab 5: Monitoring, Auditing Controls and Executive Reporting
 
-**Course:** GRC102 Information Security Governance (ICDFA) 
-**Work Done By:** Adaeze Elizabeth Adeteye **ID:** C11/26/CGRCE/17561
-**Scenario:** Simulated organization modelled on the governance failures behind the Equifax breach: unpatched Apache Struts, weak database authentication, flat network, and ineffective monitoring and oversight.
+**Course:** GRC102 Information Security Governance (ICDFA)   
+**Work Done By:** Adaeze Elizabeth Adeteye   
+**ID:** C11/26/CGRCE/1756  
+**Scenario:** Simulated organization modelled on the governance failures behind the Equifax breach: unpatched Apache Struts, weak database authentication, flat network, and ineffective monitoring and oversight  
 **Environment:** Kali GNU/Linux Rolling (2025.1), Docker 28.5.2, Docker Compose 2.40.3, Python 3.13.2
 
 ---
