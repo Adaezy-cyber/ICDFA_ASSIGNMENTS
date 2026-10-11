@@ -1,25 +1,12 @@
-# GRC102 Practical Lab 8 — Monitoring, Auditing Controls and Executive Reporting
+# GRC102 Practical Lab 8: Monitoring, Auditing Controls and Executive Reporting
 
-**Learner:** Adaeze Elizabeth Adeteye  
-**Course:** GRC102 Information Security Governance (ICDFA) — individual practical lab, 100 marks  
+**Learner:** Adaeze Elizabeth Adeteye   **ID:** C11/26/CGRCE/17561
+**Course:** GRC102 Information Security Governance (ICDFA) 
 **Scenario:** An isolated Docker simulation modelled on the governance failures behind the Equifax breach  
-**Official instructions:** [ICDFA LAB_INSTRUCTIONS.md](https://github.com/icdfa/grc-engineering-labs/blob/master/phase1/grc102/week8/LAB_INSTRUCTIONS.md)  
 **Evidence report (PDF):** [GRC102_Lab8_Evidence_Report.pdf](GRC102_Lab8_Evidence_Report.pdf)  
 **Environment:** Kali GNU/Linux Rolling 2025.1 · Docker 28.5.2 · Docker Compose 2.40.3 · Python 3.13.2
 
 > **Safety and scope.** Everything here runs only inside my local, isolated Docker network. I did not scan or test any public, organisational or third-party system. All customer data is fictitious.
-
----
-
-## Evidence status (please read first)
-
-| Item | Status |
-|---|---|
-| Environment setup and troubleshooting screenshots | Done — [Part 1](#part-1--setting-up-a-simulated-environment) |
-| Governance tracker baseline and dashboard | Done |
-| Control implementation and verification output | Done (recorded in state files, see limitations in [Part 3](#part-3--implementing-governance-controls)) |
-| Metrics, dashboard, board report, charts | Done (trend history is simulated, see [Part 4](#part-4--metrics-and-executive-reporting)) |
-| Live vulnerability scan, attack-simulation log, post-patch re-scan | **Pending** — needs the containers running. Steps are in [REPRODUCTION.md](REPRODUCTION.md). I have not invented output for these. |
 
 ---
 
@@ -35,7 +22,7 @@
 
 ---
 
-## Part 1 — Setting Up a Simulated Environment
+## Part 1: Setting Up a Simulated Environment
 
 I built three containers on one flat bridge network, `secgov_network`:
 
@@ -84,7 +71,7 @@ I reproduced the *structural* causes, not just the exploit: a known Struts CVE l
 
 ---
 
-## Part 2 — Analysing Governance Failures
+## Part 2: Analysing Governance Failures
 
 - [simulate_attack.py](simulate_attack.py) sends a harmless S2-045 probe (it only adds a response header) to my lab container and logs the result to `attack_log.json`.
 - [analyze_governance_failures.py](analyze_governance_failures.py) correlates scan, attack, tracker and patch data into categorised failures.
@@ -104,7 +91,7 @@ I reproduced the *structural* causes, not just the exploit: a known Struts CVE l
 
 ---
 
-## Part 3 — Implementing Governance Controls
+## Part 3: Implementing Governance Controls
 
 | Control | What I implemented | Failure it closes |
 |---|---|---|
@@ -128,7 +115,7 @@ Full detail: [governance_controls_report.md](governance_controls_report.md). The
 
 ---
 
-## Part 4 — Metrics and Executive Reporting
+## Part 4: Metrics and Executive Reporting
 
 - [governance_metrics.py](governance_metrics.py) generates the dashboard, board report and five charts.
 - [executive_dashboard.html](executive_dashboard.html) — open in a browser.
@@ -161,4 +148,4 @@ Full detail: [governance_controls_report.md](governance_controls_report.md). The
 
 ## Academic integrity
 
-This is my individual work. External sources are cited above. Scripts follow the ICDFA lab instructions, with the fixes I describe in this README.
+This is my individual work. External sources are cited above. Scripts follow the ICDFA lab instructions given.
