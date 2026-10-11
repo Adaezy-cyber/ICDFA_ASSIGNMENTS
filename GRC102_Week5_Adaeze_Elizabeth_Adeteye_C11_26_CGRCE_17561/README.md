@@ -27,9 +27,9 @@
 
 I built three containers on one flat bridge network, `secgov_network`:
 
-- **web_server** — a deliberately vulnerable Apache Struts 2 app (`vulhub/struts2:2.3.30`)
-- **database_server** — MySQL 5.7 holding a fictitious `customers` table (SSN, date of birth, card number) with weak `root`/`password` credentials
-- **monitoring_server** — a bare Ubuntu container that only runs `tail -f /dev/null`
+- **web_server**: a deliberately vulnerable Apache Struts 2 app (`vulhub/struts2:2.3.30`)
+- **database_server**: MySQL 5.7 holding a fictitious `customers` table (SSN, date of birth, card number) with weak `root`/`password` credentials
+- **monitoring_server**: a bare Ubuntu container that only runs `tail -f /dev/null`
 
 ### My setup evidence
 
@@ -130,11 +130,7 @@ Full detail: [governance_controls_report.md](governance_controls_report.md). The
 | ![incidents](metrics_visualizations/security_incidents.png) | ![monitoring](metrics_visualizations/monitoring_coverage.png) |
 | ![policy](metrics_visualizations/policy_compliance.png) | |
 
-**Honest labelling.** The five months of history are simulated with a fixed random seed, because a lab created this week has no real telemetry. The current month reflects the post-control lab state. The dashboard says so on its face.
-
-**Corrections I made to my first version:** risk counts and "control effectiveness" were hard-coded and are now read from `governance_data.json`; "Overall Security Posture: Good" became "Improving (live re-scan pending)" because one Critical and one High risk are still Open; and the board report no longer claims risks are resolved.
-
-**How this supports oversight:** the dashboard turns raw tracker data into red/green against a target, a trend and a named owner, which a non-technical director can act on in a minute. That is the layer that failed at Equifax, where technical findings never reached people able to act. Because every metric has a defined formula, owner and category, a reviewer can see *why* a number moved. I also recommend independent validation, since my current values are self-reported.
+**How this supports oversight:** the dashboard turns raw tracker data into red/green against a target, a trend and a named owner, which a non-technical director can act on in a minute. That is the layer that failed at Equifax, where technical findings never reached people able to act. Because every metric has a defined formula, owner and category, a reviewer can see why a number moved. I also recommend independent validation, since my current values are self-reported.
 
 ---
 
