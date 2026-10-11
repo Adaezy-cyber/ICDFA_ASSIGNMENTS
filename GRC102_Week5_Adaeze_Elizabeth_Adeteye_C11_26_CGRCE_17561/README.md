@@ -1,9 +1,10 @@
-# GRC102 Practical Lab 8: Monitoring, Auditing Controls and Executive Reporting
+# GRC102 Practical Lab 8: Monitoring, Auditing Controls and Executive Reporting  
 
-**Learner:** Adaeze Elizabeth Adeteye   **ID:** C11/26/CGRCE/17561
-**Course:** GRC102 Information Security Governance (ICDFA) 
-**Scenario:** An isolated Docker simulation modelled on the governance failures behind the Equifax breach  
-**Evidence report (PDF):** [GRC102_Lab8_Evidence_Report.pdf](GRC102_Lab8_Evidence_Report.pdf)  
+**Learner:** Adaeze Elizabeth Adeteye   
+**ID:** C11/26/CGRCE/17561  
+**Course:** GRC102 Information Security Governance (ICDFA)   
+**Scenario:** An isolated Docker simulation modelled on the governance failures behind the Equifax breach    
+**Evidence report (PDF):** [GRC102_Lab8_Evidence_Report.pdf](GRC102_Lab8_Evidence_Report.pdf)    
 **Environment:** Kali GNU/Linux Rolling 2025.1 · Docker 28.5.2 · Docker Compose 2.40.3 · Python 3.13.2
 
 > **Safety and scope.** Everything here runs only inside my local, isolated Docker network. I did not scan or test any public, organisational or third-party system. All customer data is fictitious.
