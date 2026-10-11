@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Governance Failure Analysis
-Part 2 - GRC102 Security Governance Simulation
+Part 2: GRC102 Security Governance Simulation
 
 Correlates the vulnerability scan, the attack simulation log, the
 governance tracker data and the patch status to produce a structured
