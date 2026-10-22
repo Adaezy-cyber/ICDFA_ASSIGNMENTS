@@ -1,7 +1,6 @@
-# GRC102 Practical Lab 8: Monitoring, Auditing Controls and Executive Reporting  
+ Monitoring, Auditing Controls and Executive Reporting  
 
-**Learner:** Adaeze Elizabeth Adeteye   
-**ID:** C11/26/CGRCE/17561  
+**Learner:** Adaeze Elizabeth Adeteye    
 **Course:** GRC102 Information Security Governance (ICDFA)   
 **Scenario:** An isolated Docker simulation modelled on the governance failures behind the Equifax breach    
 **Evidence report (PDF):** [GRC102_Lab8_Evidence_Report.pdf](GRC102_Lab8_Evidence_Report.pdf)    
