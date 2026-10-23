@@ -372,24 +372,4 @@ After the scans I listed `~/lab1`, copied the six output files into an `evidence
 | Completed risk assessment table | [Section 5](#5-phase-3-risk-assessment-step-6) |
 | Executive summary | [Section 6](#6-executive-summary-step-7) |
 
-## 10. Repository structure
-
-```text
-Lab1-Vulnerability-Assessment/
-├── README.md                  <- this report
-├── evidence/                  <- raw scan output files from ~/lab1
-│   ├── initial_scan.nmap
-│   ├── initial_scan.gnmap
-│   ├── initial_scan.xml
-│   ├── initial_scan_report.html
-│   ├── nikto_scan.txt
-│   ├── nuclei_web_scan.txt
-│   └── README.md
-└── screenshots/               <- 22 numbered screenshots, in workflow order
-    ├── 01_setup_tool-versions.png
-    ├── 02_step1_ping-and-attacker-ip.png
-    ├── 03_step2_nmap-command-and-results-1.png
-    ├── ...
-    ├── 21_step5_nuclei-results-2-and-summary.png
-    └── 22_step2_evidence-files-and-zip.png
 ```
