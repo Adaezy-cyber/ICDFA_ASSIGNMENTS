@@ -304,8 +304,8 @@ Framework references use NIST CSF (v1.1 identifiers), CIS Controls v8 and PCI DS
 
 ## 6. Executive summary (Step 7)
 
-**To:** IT Management
-**From:** GRC Audit Team (Adaeze Elizabeth Adeteye)
+**To:** IT Management   
+**From:** Adaeze Elizabeth Adeteye (GRC Audit Team)    
 **Date:** 21 October 2026
 **Subject:** High-Risk Findings on Development Server 'metasploitable'
 
@@ -345,7 +345,7 @@ I carried out a vulnerability assessment of the internal development server `met
 
 - This was a point-in-time, non-credentialed scan. I did not exploit any finding, so every rating is based on scanner output and service versions.
 - I ran one Nuclei scan (`nuclei -u http://192.168.56.10`). It covered web and network templates, so I did not run a separate `-target` scan.
-- Some Nuclei results are version-based matches (for example CVE-2026-4480 on Samba and CVE-2021-30047 on vsftpd). I recommend verifying these before treating them as confirmed.
+- Some Nuclei results are version-based matches (for example CVE-2026-4480 on Samba and CVE-2021-30047 on vsftpd). 
 - Nuclei reported the vsftpd backdoor on port 6200, which Nmap did not list as open. That is consistent with the backdoor only opening its shell when triggered.
 - Metasploitable2 is deliberately vulnerable, so this result is expected for this host. I wrote the report as if it were a real server so that I could practise translating technical findings into business risk.
 - Framework references are my mapping of each finding to the closest relevant control. Different framework versions number their controls differently, so a reviewer may map some findings to slightly different identifiers.
