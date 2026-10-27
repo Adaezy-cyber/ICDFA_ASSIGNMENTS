@@ -2,7 +2,7 @@
 
 **Scenario:** SecureBank Financial, SecureMobile banking platform   
 **Author:** Adaeze Elizabeth Adeteye   
-**Student ID:** C11/26/CGRCE/1756
+**Student ID:** C11/26/CGRCE/1756    
 **Role in the scenario:** Lead GRC analyst, reporting to the CISO and CFO
 
 In this lab I turned three critical penetration-test findings into dollar figures, tested three security controls against them, and wrote up an executive recommendation. Everything is calculated in an Excel workbook with live formulas, and I cross-checked the results with a short Python model. This README walks through the work task by task.
