@@ -1,0 +1,5 @@
+Control,Finding addressed,Target ALE ($),Effectiveness,Annual risk reduction ($),Initial investment ($),Annual maintenance ($),Year-1 cost ($),Year-1 ROI,Payback (months),Payback (days),3-year cost ($),3-year benefit ($),3-year ROI,Break-even effectiveness,Recommendation
+Advanced API Security Gateway,API Authentication Bypass,750000,0.9,675000,350000,50000,400000,0.6875,6.72,204.5,500000,2025000,3.05,0.5333,Recommend
+Web Application Firewall (WAF),Database Injection,31250000,0.75,23437500,150000,25000,175000,132.9286,0.08,2.3,225000,70312500,311.5,0.0056,Recommend
+Multi-Factor Authentication Enhancement,Session Hijacking,3000000,0.95,2850000,200000,30000,230000,11.3913,0.85,25.9,290000,8550000,28.4828,0.0767,Recommend
+Total (all three),,35000000,,26962500,700000,105000,805000,32.4938,0.31,,,,78.6921,,

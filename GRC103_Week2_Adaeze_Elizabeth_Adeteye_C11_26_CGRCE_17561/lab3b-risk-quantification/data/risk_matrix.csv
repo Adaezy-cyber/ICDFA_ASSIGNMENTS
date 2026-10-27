@@ -1,0 +1,5 @@
+Finding #,Vulnerability,SLE ($),ARO,ALE ($),% of total ALE,Rank,Risk priority,Probability level,Impact level,Heat rating,Residual ALE after controls ($)
+1,API Authentication Bypass,5000000,0.15,750000,0.0214,3,Medium,Medium,Medium,Medium,75000
+2,Database Injection,125000000,0.25,31250000,0.8929,1,Critical,Medium,High,High,7812500
+3,Session Hijacking,7500000,0.4,3000000,0.0857,2,High,High,Medium,High,150000
+,Total,,,35000000,1.0,,,,,,8037500
