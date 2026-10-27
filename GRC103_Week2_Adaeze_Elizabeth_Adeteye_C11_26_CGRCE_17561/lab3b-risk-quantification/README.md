@@ -1,7 +1,8 @@
-# Lab 3b: Advanced Cybersecurity Risk Quantification
+# Advanced Cybersecurity Risk Quantification
 
-**Scenario:** SecureBank Financial, SecureMobile banking platform
-**Author:** Adaeze Elizabeth Adeteye
+**Scenario:** SecureBank Financial, SecureMobile banking platform   
+**Author:** Adaeze Elizabeth Adeteye   
+**Student ID:** C11/26/CGRCE/1756
 **Role in the scenario:** Lead GRC analyst, reporting to the CISO and CFO
 
 In this lab I turned three critical penetration-test findings into dollar figures, tested three security controls against them, and wrote up an executive recommendation. Everything is calculated in an Excel workbook with live formulas, and I cross-checked the results with a short Python model. This README walks through the work task by task.
@@ -11,7 +12,7 @@ In this lab I turned three critical penetration-test findings into dollar figure
 ## Contents
 
 1. [Summary of results](#1-summary-of-results)
-2. [Repository structure and deliverables](#2-repository-structure-and-deliverables)
+2. Deliverables]([#2-Deliverables](url))
 3. [Scenario and dataset](#3-scenario-and-dataset)
 4. [Method and formulas](#4-method-and-formulas)
 5. [Phase 1: Risk exposure](#5-phase-1-risk-exposure)
@@ -20,7 +21,7 @@ In this lab I turned three critical penetration-test findings into dollar figure
 8. [Bonus: optimal control selection under a budget](#8-bonus-optimal-control-selection-under-a-budget)
 9. [Recommendations](#9-recommendations)
 10. [Assumptions and limitations](#10-assumptions-and-limitations)
-11. [How to reproduce this work](#11-how-to-reproduce-this-work)
+
 
 ---
 
@@ -43,24 +44,7 @@ In this lab I turned three critical penetration-test findings into dollar figure
 
 ---
 
-## 2. Repository structure and deliverables
-
-```
-lab3b-risk-quantification/
-├── README.md                          This report
-├── requirements.txt                   Python packages for the scripts
-├── workbook/
-│   └── Lab3b_Risk_Quantification.xlsx Excel workbook with all calculations, charts, dashboard and Gantt
-├── charts/                            All charts as PNG (12 files)
-├── data/                              CSV exports of the key tables
-├── reports/
-│   └── Lab3b_Executive_Briefing.pdf   3-page executive briefing package
-└── scripts/
-    ├── risk_model.py                  Python version of the calculations
-    ├── make_charts.py                 Generates the charts and CSV files
-    └── build_briefing.py              Builds the PDF briefing
-```
-
+## 2. Deliverables
 How each lab deliverable maps to a file:
 
 | Lab deliverable | Where to find it |
@@ -384,17 +368,3 @@ From $175,000 upward the WAF is always part of the optimal set. MFA is the next 
 
 ---
 
-## 11. How to reproduce this work
-
-**Excel workbook.** Open `workbook/Lab3b_Risk_Quantification.xlsx`. Change values on the *Inputs* tab (blue cells) and every calculation, chart, the dashboard and the Gantt chart update. The tabs are *README*, *Inputs*, *Risk Calc*, *Control Analysis*, *Charts*, *Dashboard*, *Gantt*, *Bonus* and *Chart Data*.
-
-**Python scripts** (Python 3.9 or later):
-
-```bash
-pip install -r requirements.txt
-python scripts/risk_model.py        # prints the key results
-python scripts/make_charts.py       # regenerates charts/ and data/
-python scripts/build_briefing.py    # regenerates reports/Lab3b_Executive_Briefing.pdf
-```
-
-The workbook and the Python model give the same results: total ALE $35,000,000, risk reduction $26,962,500, residual exposure $8,037,500.
