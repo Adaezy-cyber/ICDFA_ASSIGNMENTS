@@ -2,7 +2,7 @@
 
 **Student:** Adeteye Elizabeth (Adaeze Elizabeth Adeteye)   
 **Student ID:** C11/26/CGRCE/17561    
-**Lab:** Week 2 — Social Engineering & Phishing Campaign Simulation    
+**Lab:** Week 2 - Social Engineering & Phishing Campaign Simulation    
 **Tool Used:** GoPhish v0.12.1 (open-source phishing framework)   
 **Environment:** Kali Linux (attacker/auditor machine), Mailtrap.io (sandbox SMTP)
 
