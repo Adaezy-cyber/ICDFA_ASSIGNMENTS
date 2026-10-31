@@ -1,16 +1,16 @@
 # Social Engineering & Phishing Campaign Simulation for GRC Professionals
 
-**Student:** Adeteye Elizabeth (Adaeze Elizabeth Adeteye)
-**Student ID:** C11/26/CGRCE/17561
-**Lab:** Week 2 — Social Engineering & Phishing Campaign Simulation
-**Tool Used:** GoPhish v0.12.1 (open-source phishing framework)
+**Student:** Adeteye Elizabeth (Adaeze Elizabeth Adeteye)   
+**Student ID:** C11/26/CGRCE/17561    
+**Lab:** Week 2 — Social Engineering & Phishing Campaign Simulation    
+**Tool Used:** GoPhish v0.12.1 (open-source phishing framework)   
 **Environment:** Kali Linux (attacker/auditor machine), Mailtrap.io (sandbox SMTP)
 
 ---
 
 ## 1. Introduction
 
-Technical vulnerabilities are only one part of an organization's risk landscape — the human element is often the most exploited attack vector. This lab moved me out of pure technical testing and into the GRC core skill of **quantifying human risk**. I set up and ran a controlled, benign phishing simulation against myself as the sole test subject, using GoPhish, and then interpreted the resulting metrics the way a GRC auditor would: as evidence of control effectiveness (or failure), not as a trick played on a user.
+Technical vulnerabilities are only one part of an organization's risk landscape, the human element is often the most exploited attack vector. This lab moved me out of pure technical testing and into the GRC core skill of **quantifying human risk**. I set up and ran a controlled, benign phishing simulation against myself as the sole test subject, using GoPhish, and then interpreted the resulting metrics the way a GRC auditor would: as evidence of control effectiveness (or failure), not as a trick played on a user.
 
 ## 2. Scenario
 
@@ -38,22 +38,22 @@ Acting as the GRC Audit Team, I was authorized to run a controlled, internal, be
 
 ### Step 1: Install GoPhish
 
-Downloaded the GoPhish v0.12.1 Linux release with `wget`, unzipped it, and launched the binary. The admin interface came up at `https://127.0.0.1:3333`.
+i downloaded the GoPhish v0.12.1 Linux release with `wget`, unzipped it, and launched the binary. The admin interface came up at `https://127.0.0.1:3333`.
 
-- `01_GoPhish_Download.png` — downloading the GoPhish release archive via `wget`
-- `02_GoPhish_Extraction.png` — extracting the archive with `unzip`
-- `03_GoPhish_Dashboard_Initial.png` — first login to the empty GoPhish dashboard, confirming a successful install
+- `01_GoPhish_Download.png` - downloading the GoPhish release archive via `wget`
+- `02_GoPhish_Extraction.png` - extracting the archive with `unzip`
+- `03_GoPhish_Dashboard_Initial.png` - first login to the empty GoPhish dashboard, confirming a successful install
 
 ### Step 2: Configure Sending Profile
 
-Created a free Mailtrap.io sandbox account so that test emails were safely intercepted rather than delivered to any real mailbox. Built a new Sending Profile in GoPhish named **"mailtrap test"**, using the Host, Username, and Password supplied by Mailtrap's SMTP Settings panel, with a plausible internal sender identity (`IT Security Team <from@example.com>`).
+I created a free Mailtrap.io sandbox account so that test emails were safely intercepted rather than delivered to any real mailbox. Then, i built a new Sending Profile in GoPhish named **"mailtrap test"**, using the Host, Username, and Password supplied by Mailtrap's SMTP Settings panel, with a plausible internal sender identity (`IT Security Team <from@example.com>`).
 
 - `04_Mailtrap_Account_Setup.png` — Mailtrap sandbox home/account confirmation
 - `05_Sending_Profile_Configured.png` — GoPhish Sending Profile saved successfully
 
 ### Step 3: Create a Landing Page
 
-Built a landing page named **"Mock VPN Training Page"** to serve as the phishing destination. In line with the lab's ethical-testing intent, this page was deliberately configured as a **non-capturing awareness page** — it does not collect submitted credentials, displaying instead: *"This is a controlled GRC training simulation. No credentials are collected in this exercise."*
+i built a landing page named **"Mock VPN Training Page"** to serve as the phishing destination. In line with the lab's ethical-testing intent, this page was deliberately configured as a **non-capturing awareness page** i.e it does not collect submitted credentials, displaying instead: *"This is a controlled GRC training simulation. No credentials are collected in this exercise."*
 
 - `06_Landing_Page_Created.png` — Landing Page saved successfully in GoPhish
 
@@ -65,13 +65,13 @@ Authored an email template named **"VPN Security Awareness Test"** using the pre
 
 ### Step 5: Define the Target Group
 
-Created a single-member group, **"Lab Test Group,"** containing only my own test mailbox, consistent with the lab's instruction to simulate targets using ourselves rather than real third parties.
+I created a single-member group, **"Lab Test Group,"** containing only my own test mailbox, consistent with the lab's instruction to simulate targets using ourselves rather than real third parties.
 
 - `08_Target_Group_Created.png` — Target Group saved successfully with 1 member
 
 ### Step 6: Launch the Phishing Campaign
 
-Launched the campaign, **"Q3 GRC Phishing Simulation,"** combining the Email Template, Landing Page, Sending Profile, and Target Group above, set to fire immediately.
+I then Launched the campaign, **"Q3 GRC Phishing Simulation,"** combining the Email Template, Landing Page, Sending Profile, and Target Group above, set to fire immediately.
 
 - `11_Campaign_Launched_Initial.png` — campaign created and scheduled in GoPhish, recipient record (Elizabeth Adeteye) visible in Details
 - `13_GoPhish_Server_Log_Email_Sent.png` — GoPhish server log confirming the email was handed off to the mailer and sent to the recipient address
@@ -101,9 +101,9 @@ Monitored the GoPhish Dashboard in real time as the simulation progressed throug
 
 ## Step 9: Executive Summary & Recommendations
 
-**To:** CISO, Head of HR, and Executive Management
-**From:** GRC Audit Team (Adeteye Elizabeth)
-**Date:** October 2026
+**To:** CISO, Head of HR, and Executive Management   
+**From:** Adeteye Elizabeth (GRC Audit Team)    
+**Date:** October 2026      
 **Subject:** Results of Controlled Phishing Simulation and Human Risk Assessment Methodology
 
 ### 1. Executive Summary
@@ -118,7 +118,7 @@ A controlled, single-recipient phishing simulation was conducted using GoPhish t
 
 ### 3. Risk Analysis
 
-Although the sample size here is too small to generalize, the underlying behavior observed — opening a themed email and clicking an embedded link without independent verification — is consistent with the industry-documented pattern that makes phishing the leading initial-access vector for breaches. If reproduced at the organizational level with a representative sample, similarly high open/click rates combined with any non-zero credential-submission rate would expose the organization to:
+Although the sample size here is too small to generalize, the underlying behavior observed, opening a themed email and clicking an embedded link without independent verification is consistent with the industry-documented pattern that makes phishing the leading initial-access vector for breaches. If reproduced at the organizational level with a representative sample, similarly high open or click rates combined with any non-zero credential-submission rate would expose the organization to:
 
 - Initial network access for attackers via compromised credentials.
 - Downstream data breaches and financial loss.
@@ -136,7 +136,7 @@ Although the sample size here is too small to generalize, the underlying behavio
 
 ## 6. Lab Conclusion
 
-This lab moved the assessment scope from technical and application security into the human domain. Running the full GoPhish workflow end-to-end — sending profile, landing page, email template, target group, campaign launch, and dashboard analysis — confirmed the mechanics of a phishing simulation and showed how raw engagement data (opens, clicks, submissions) is translated into risk language a CISO or executive audience can act on. The single-recipient scope of this run means the numeric rates above are illustrative of the *method*, not a finding about organizational susceptibility; scaling the same pipeline to a real, representative test group is the natural next step.
+This lab moved the assessment scope from technical and application security into the human domain. Running the full GoPhish workflow end-to-end i.e sending profile, landing page, email template, target group, campaign launch, and dashboard analysis all confirmed the mechanics of a phishing simulation and showed how raw engagement data like opens, clicks and submissions is translated into risk language a CISO or executive audience can act on. The single-recipient scope of this run means the numeric rates above are illustrative of the method, not a finding about organizational susceptibility; scaling the same pipeline to a real, representative test group is the natural next step.
 
 ## 7. Deliverables
 
@@ -147,26 +147,3 @@ This lab moved the assessment scope from technical and application security into
 
 ---
 
-## Repository Structure
-
-```
-.
-├── README.md
-└── evidence/
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_01_GoPhish_Download.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_02_GoPhish_Extraction.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_03_GoPhish_Dashboard_Initial.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_04_Mailtrap_Account_Setup.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_05_Sending_Profile_Configured.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_06_Landing_Page_Created.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_07_Email_Template_Created.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_08_Target_Group_Created.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_09_Mailtrap_Inbox_Email_Received.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_10_Mailtrap_Email_Content_View.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_11_Campaign_Launched_Initial.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_12_Mailtrap_Q3_Campaign_Email.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_13_GoPhish_Server_Log_Email_Sent.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_14_Dashboard_Email_Sent_Confirmed.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_15_Landing_Page_Click_Confirmed.png
-    └── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_16_Dashboard_Final_Results.png
-```
