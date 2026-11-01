@@ -45,22 +45,6 @@ In this lab I turned three critical penetration-test findings into dollar figure
 
 ## 2. Repository structure and deliverables
 
-```
-lab3b-risk-quantification/
-├── README.md                          This report
-├── requirements.txt                   Python packages for the scripts
-├── workbook/
-│   └── Lab3b_Risk_Quantification.xlsx Excel workbook with all calculations, charts, dashboard and Gantt
-├── charts/                            All charts as PNG (12 files)
-├── data/                              CSV exports of the key tables
-├── reports/
-│   └── Lab3b_Executive_Briefing.pdf   3-page executive briefing package
-└── scripts/
-    ├── risk_model.py                  Python version of the calculations
-    ├── make_charts.py                 Generates the charts and CSV files
-    └── build_briefing.py              Builds the PDF briefing
-```
-
 How each lab deliverable maps to a file:
 
 | Lab deliverable | Where to find it |
