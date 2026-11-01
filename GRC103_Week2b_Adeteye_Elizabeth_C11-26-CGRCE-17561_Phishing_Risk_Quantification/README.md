@@ -1,4 +1,4 @@
-# Lab 3: Advanced GRC Phishing Simulation & Quantitative Risk Analysis
+# Advanced GRC Phishing Simulation & Quantitative Risk Analysis
 
 **Student:** Adeteye Elizabeth (Adaeze Elizabeth Adeteye)   
 **Student ID:** C11/26/CGRCE/17561    
