@@ -1,15 +1,15 @@
 # Lab 3: Advanced GRC Phishing Simulation & Quantitative Risk Analysis
 
-**Student:** Adeteye Elizabeth (Adaeze Elizabeth Adeteye)
-**Student ID:** C11/26/CGRCE/17561
-**Scenario:** GlobalTech Inc. — Lead GRC Analyst
+**Student:** Adeteye Elizabeth (Adaeze Elizabeth Adeteye)   
+**Student ID:** C11/26/CGRCE/17561    
+**Scenario:** GlobalTech Inc. — Lead GRC Analyst    
 **Role:** Lead GRC Analyst, reporting to the CISO and CFO
 
 ---
 
 ## 1. Introduction
 
-This lab moves beyond identifying that phishing is a risk, into **quantifying exactly how much risk it represents in financial terms** — the language executives and boards act on. Using three simulated phishing campaign datasets provided for GlobalTech Inc., I calculated engagement metrics, scaled them to organizational exposure, applied Annualized Loss Expectancy (ALE) modeling, ran a cost-benefit analysis on proposed controls, and produced an executive-level briefing.
+This lab moves beyond identifying that phishing is a risk, into **quantifying exactly how much risk it represents in financial terms** which is the language executives and boards act on. Using three simulated phishing campaign datasets provided for GlobalTech Inc., I calculated engagement metrics, scaled them to organizational exposure, applied Annualized Loss Expectancy (ALE) modeling, ran a cost-benefit analysis on proposed controls, and produced an executive-level briefing.
 
 ## 2. Scenario
 
@@ -113,13 +113,13 @@ Formula: p ± 1.96 × √[p(1−p)/n]
 
 ### Step 8: Comprehensive Executive Briefing
 
-**To:** Board of Directors, CISO, CFO
-**From:** GRC Risk Analysis Team — Adeteye Elizabeth
+**To:** Board of Directors, CISO, CFO    
+**From:**Adaeze Adeteye - GRC Risk Analysis Team     
 **Subject:** Quantitative Phishing Risk Assessment & Financial Exposure
 
 #### 1. Executive Summary
 
-Three phishing simulations — targeting HR, IT, and executive personas respectively — produced credential-theft rates ranging from 15% to 30%. The "IT System Password Reset" campaign (Campaign B) represents the highest risk, with a 30% credential submission rate projecting to roughly 600 compromised accounts organization-wide. Applying our standard 25%-breach-probability assumption consistently across all three campaigns, combined projected annual exposure is approximately **$1.37 billion** ($391.5M + $652.5M + $326.25M) under this model.
+Three phishing simulations targeting HR, IT, and executive personas respectively produced credential-theft rates ranging from 15% to 30%. The "IT System Password Reset" campaign (Campaign B) represents the highest risk, with a 30% credential submission rate projecting to roughly 600 compromised accounts organization-wide. Applying our standard 25%-breach-probability assumption consistently across all three campaigns, combined projected annual exposure is approximately **$1.37 billion** ($391.5M + $652.5M + $326.25M) under this model.
 
 #### 2. Methodology Caveat (for the Board's awareness)
 
@@ -146,14 +146,14 @@ Both controls are directionally sound investments regardless of which exposure m
 #### 5. Strategic Recommendations
 
 **Immediate (Q1):**
-1. Implement MFA enterprise-wide — $90,000.
-2. Launch a targeted, ongoing phishing simulation program — $25,000.
-3. Conduct emergency security awareness training, prioritizing the IT-themed pretext that produced Campaign B's results — $100,000.
+1. Implement MFA enterprise-wide: $90,000.
+2. Launch a targeted, ongoing phishing simulation program: $25,000.
+3. Conduct emergency security awareness training, prioritizing the IT-themed pretext that produced Campaign B's results: $100,000.
 
 **Strategic (FY2024):**
-1. Deploy an advanced email security gateway — $50,000.
-2. Establish continuous security monitoring — $150,000.
-3. Implement security behavior analytics to track improvement over successive simulations — $75,000.
+1. Deploy an advanced email security gateway: $50,000.
+2. Establish continuous security monitoring: $150,000.
+3. Implement security behavior analytics to track improvement over successive simulations: $75,000.
 
 **Additional recommendation specific to Campaign C's pattern:** executives and assistants showed the highest click-through rate (75%) of any group, despite the lowest credential-submission rate. This suggests this population is curious/responsive to urgency framing but has decent "last-moment" scrutiny. Targeted training here should focus on **not clicking in the first place**, since their current behavior relies on catching the deception only after it's already in front of them.
 
@@ -171,13 +171,13 @@ Under the brief's own ALE methodology, the security investment would be justifie
 
 ## Lab Conclusion
 
-This lab demonstrated the mechanics of translating phishing simulation data into the kind of financial language a board or CFO expects — calculating engagement funnels, scaling to organizational exposure, applying ALE, and running cost-benefit analysis on proposed controls. I also identified and corrected an internal inconsistency in how the original worked example applied its breach-probability assumption across campaigns (treating Campaign B differently from A and C without stating why), and flagged a deeper methodological concern: the per-employee multiplication approach in this brief inflates exposure to a scale that doesn't match real-world breach-cost benchmarks. A GRC professional's job isn't just to run the formula as given — it's to sanity-check the output against what's plausible before it reaches a CFO's desk, and to say so clearly when the numbers don't hold up, which this submission does throughout.
+This lab demonstrated the mechanics of translating phishing simulation data into the kind of financial language a board or CFO expects, calculating engagement funnels, scaling to organizational exposure, applying ALE, and running cost-benefit analysis on proposed controls. I also identified and corrected an internal inconsistency in how the original worked example applied its breach-probability assumption across campaigns (treating Campaign B differently from A and C without stating why), and flagged a deeper methodological concern: the per-employee multiplication approach in this brief inflates exposure to a scale that doesn't match real-world breach-cost benchmarks. A GRC professional's job isn't just to run the formula as given, it's to sanity-check the output against what's plausible before it reaches a CFO's desk, and to say so clearly when the numbers don't hold up, which this submission does throughout.
 
 ## Deliverables
 
-- ✅ Completed Calculation Worksheets — Phases 1 & 2 (above)
-- ✅ Risk Assessment Matrix — Phase 3, Step 6 (corrected and explained)
-- ✅ Statistical Analysis with confidence intervals — Step 7
-- ✅ Executive Briefing with financial calculations — Step 8
-- ✅ Control Recommendation Table with ROI calculations — Step 8.4
-- ✅ Bonus Challenge — break-even analysis
+- ✅ Completed Calculation Worksheets: Phases 1 & 2 (above)
+- ✅ Risk Assessment Matrix: Phase 3, Step 6 (corrected and explained)
+- ✅ Statistical Analysis with confidence intervals: Step 7
+- ✅ Executive Briefing with financial calculations: Step 8
+- ✅ Control Recommendation Table with ROI calculations: Step 8.4
+- ✅ Bonus Challenge: break-even analysis
