@@ -25,9 +25,9 @@ Formula: Rate = (Number of Events / Number of Emails Sent) × 100
 
 | Campaign | Email Open Rate | Click-Through Rate | Credential Submission Rate | Data Entry Rate |
 |---|---|---|---|---|
-| A — HR Bonus Notification | 82% | 47% | 18% | 5% |
-| B — IT Password Reset | 80% | 60% | 30% | 10% |
-| C — CEO Urgent Document Review | 90% | 75% | 15% | 10% |
+| A - HR Bonus Notification | 82% | 47% | 18% | 5% |
+| B - IT Password Reset | 80% | 60% | 30% | 10% |
+| C - CEO Urgent Document Review | 90% | 75% | 15% | 10% |
 
 ### Step 2: Efficiency Metrics
 
@@ -41,7 +41,7 @@ Formula: Rate = (Number of Events / Number of Emails Sent) × 100
 - Campaign B: (75/150) × 100 = **50.0%**
 - Campaign C: (12/60) × 100 = **20.0%**
 
-**Observation:** Campaign C had the weakest "click discipline" (83.3% of people who opened it also clicked — the highest of the three), but the strongest resistance once on the landing page (only 20% of clickers actually submitted credentials). This is consistent with a senior/executive population: curious enough to click, but more likely to recognize a credential-harvesting page before typing anything in.
+**Observation:** Campaign C had the weakest "click discipline" (83.3% of people who opened it also clicked which is the highest of the three), but the strongest resistance once on the landing page (only 20% of clickers actually submitted credentials). This is consistent with a senior/executive population: curious enough to click, but more likely to recognize a credential-harvesting page before typing anything in.
 
 ---
 
@@ -83,7 +83,7 @@ Formula: Rate = (Number of Events / Number of Emails Sent) × 100
 
 ### Step 6: Risk Assessment Matrix
 
-I recalculated Campaign A and Campaign C's financial exposure using the lab's own stated formula and its own stated 25% breach probability — the same probability the brief itself uses for Campaign B — rather than the different, unstated probabilities (10% and 8% respectively) that the original worked example's totals implicitly used without explanation.
+I recalculated Campaign A and Campaign C's financial exposure using the lab's own stated formula and its own stated 25% breach probability which is the same probability the brief itself uses for Campaign B, rather than the different, unstated probabilities (10% and 8% respectively) that the original worked example's totals implicitly used without explanation.
 
 | Campaign | Credential Rate | Org-Scaled Employees (×2,000) | Expected Breaches (×25%) | Financial Exposure (×$4.35M) | Overall Risk Score | Priority | Recommended Action |
 |---|---|---|---|---|---|---|---|
