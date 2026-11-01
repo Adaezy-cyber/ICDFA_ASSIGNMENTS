@@ -1,16 +1,16 @@
 # Social Engineering & Phishing Campaign Simulation for GRC Professionals
 
-**Student:** Adeteye Elizabeth (Adaeze Elizabeth Adeteye)
-**Student ID:** C11/26/CGRCE/17561
-**Lab:** Week 2 — Social Engineering & Phishing Campaign Simulation
-**Tool Used:** GoPhish v0.12.1 (open-source phishing framework)
+**Student:** Adeteye Elizabeth (Adaeze Elizabeth Adeteye)   
+**Student ID:** C11/26/CGRCE/17561   
+**Lab:** Week 2 - Social Engineering & Phishing Campaign Simulation    
+**Tool Used:** GoPhish v0.12.1 (open-source phishing framework)    
 **Environment:** Kali Linux (attacker/auditor machine), Mailtrap.io (sandbox SMTP)
 
 ---
 
 ## 1. Introduction
 
-Technical vulnerabilities are only one part of an organization's risk landscape — the human element is often the most exploited attack vector. This lab moved me out of pure technical testing and into the GRC core skill of **quantifying human risk**. I set up and ran a controlled, benign phishing simulation against myself as the sole test subject, using GoPhish, and then interpreted the resulting metrics the way a GRC auditor would: as evidence of control effectiveness (or failure), not as a trick played on a user.
+Technical vulnerabilities are only one part of an organization's risk landscape,the human element is often the most exploited attack vector. This lab moved me out of pure technical testing and into the GRC core skill of **quantifying human risk**. I set up and ran a controlled, benign phishing simulation against myself as the sole test subject, using GoPhish, and then interpreted the resulting metrics the way a GRC auditor would: as evidence of control effectiveness (or failure), not as a trick played on a user.
 
 ## 2. Scenario
 
@@ -61,28 +61,28 @@ Created a free Mailtrap.io sandbox account so that test emails were safely inter
 
 ### Step 3: Create a Landing Page
 
-Built a landing page named **"Mock VPN Training Page"** to serve as the phishing destination.
+i built a landing page named **"Mock VPN Training Page"** to serve as the phishing destination.
 
 ![Landing Page saved successfully in GoPhish](evidence/Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_06_Landing_Page_Created.png)
 *Landing Page saved successfully in GoPhish*
 
 ### Step 4: Create an Email Template
 
-Authored an email template named **"VPN Security Awareness Test"** using the pretext of an expiring VPN password, with the subject line **"Action Required: VPN Security Check."** The template used GoPhish's `{{.FirstName}}` and `{{.URL}}` variables for per-recipient personalization and link tracking.
+i authored an email template named **"VPN Security Awareness Test"** using the pretext of an expiring VPN password, with the subject line **"Action Required: VPN Security Check."** The template used GoPhish's `{{.FirstName}}` and `{{.URL}}` variables for per-recipient personalization and link tracking.
 
 ![Email Template saved successfully in GoPhish](evidence/Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_07_Email_Template_Created.png)
 *Email Template saved successfully in GoPhish*
 
 ### Step 5: Define the Target Group
 
-Created a single-member group, **"Lab Test Group,"** containing only my own test mailbox, consistent with the lab's instruction to simulate targets using ourselves rather than real third parties.
+i then ceated a single-member group, **"Lab Test Group,"** containing only my own test mailbox, consistent with the lab's instruction to simulate targets using ourselves rather than real third parties.
 
 ![Target Group saved successfully with 1 member](evidence/Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_08_Target_Group_Created.png)
 *Target Group saved successfully with 1 member*
 
 ### Step 6: Launch the Phishing Campaign
 
-Launched an initial campaign, **"Q3 GRC Phishing Simulation,"** combining the Email Template, Landing Page, Sending Profile, and Target Group above, set to fire immediately.
+i also launched an initial campaign, **"Q3 GRC Phishing Simulation,"** combining the Email Template, Landing Page, Sending Profile, and Target Group above, set to fire immediately.
 
 ![Campaign created and scheduled in GoPhish](evidence/Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_11_Campaign_Launched_Initial.png)
 *Campaign created and scheduled in GoPhish, recipient record (Elizabeth Adeteye) visible in Details*
@@ -109,7 +109,7 @@ After reviewing the first run, I rebuilt the Mock VPN Training Page with a genui
 
 ### Step 7: Analyze the Results
 
-Monitored the GoPhish Dashboard in real time as the simulation progressed through each stage, from the initial send-only state through to full credential capture.
+i monitored the GoPhish Dashboard in real time as the simulation progressed through each stage, from the initial send-only state through to full credential capture.
 
 ![Email Sent counter at 1, all other metrics still at 0](evidence/Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_14_Dashboard_Email_Sent_Confirmed.png)
 *Email Sent counter at 1, all other metrics still at 0 (pre-interaction state, first campaign)*
@@ -139,9 +139,9 @@ Monitored the GoPhish Dashboard in real time as the simulation progressed throug
 
 ## Step 9: Executive Summary & Recommendations
 
-**To:** CISO, Head of HR, and Executive Management
-**From:** GRC Audit Team (Adeteye Elizabeth)
-**Date:** October 2026
+**To:** CISO, Head of HR, and Executive Management   
+**From:** Adeteye Elizabeth  (GRC Audit Team)    
+**Date:** October 2026    
 **Subject:** Results of Controlled Phishing Simulation and Human Risk Assessment Methodology
 
 ### 1. Executive Summary
@@ -184,30 +184,3 @@ This lab moved the assessment scope from technical and application security into
 - ✅ Full supporting evidence trail (19 screenshots, embedded throughout and stored in the [`evidence/`](evidence/) folder), each renamed with student name, student ID, and step sequence
 
 ---
-
-## Repository Structure
-
-```
-.
-├── README.md
-└── evidence/
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_01_GoPhish_Download.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_02_GoPhish_Extraction.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_03_GoPhish_Dashboard_Initial.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_04_Mailtrap_Account_Setup.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_05_Sending_Profile_Configured.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_06_Landing_Page_Created.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_07_Email_Template_Created.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_08_Target_Group_Created.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_09_Mailtrap_Inbox_Email_Received.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_10_Mailtrap_Email_Content_View.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_11_Campaign_Launched_Initial.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_12_Mailtrap_Q3_Campaign_Email.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_13_GoPhish_Server_Log_Email_Sent.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_14_Dashboard_Email_Sent_Confirmed.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_15_Landing_Page_Click_Confirmed.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_16_Dashboard_Final_Results.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_17_Landing_Page_Login_Form_Rendered.png
-    ├── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_18_Campaign_Results_Credential_Capture.png
-    └── Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_19_GoPhish_Server_Log_POST_Submission.png
-```
