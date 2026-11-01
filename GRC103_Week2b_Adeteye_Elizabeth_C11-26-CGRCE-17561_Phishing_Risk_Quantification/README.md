@@ -2,7 +2,7 @@
 
 **Student:** Adeteye Elizabeth (Adaeze Elizabeth Adeteye)   
 **Student ID:** C11/26/CGRCE/17561    
-**Scenario:** GlobalTech Inc. — Lead GRC Analyst    
+**Scenario:** GlobalTech Inc. - Lead GRC Analyst    
 **Role:** Lead GRC Analyst, reporting to the CISO and CFO
 
 ---
