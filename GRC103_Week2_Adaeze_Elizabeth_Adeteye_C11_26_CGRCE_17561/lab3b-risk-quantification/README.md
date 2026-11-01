@@ -1,7 +1,7 @@
-# Lab 3b: Advanced Cybersecurity Risk Quantification
+# Advanced Cybersecurity Risk Quantification
 
-**Scenario:** SecureBank Financial, SecureMobile banking platform
-**Author:** Adaeze Elizabeth Adeteye
+**Scenario:** SecureBank Financial, SecureMobile banking platform   
+**Author:** Adaeze Elizabeth Adeteye    
 **Role in the scenario:** Lead GRC analyst, reporting to the CISO and CFO
 
 In this lab I turned three critical penetration-test findings into dollar figures, tested three security controls against them, and wrote up an executive recommendation. Everything is calculated in an Excel workbook with live formulas, and I cross-checked the results with a short Python model. This README walks through the work task by task.
@@ -383,18 +383,3 @@ From $175,000 upward the WAF is always part of the optimal set. MFA is the next 
 - **Controls are not tested in combination.** The residual figures assume each control works in isolation on its own finding.
 
 ---
-
-## 11. How to reproduce this work
-
-**Excel workbook.** Open `workbook/Lab3b_Risk_Quantification.xlsx`. Change values on the *Inputs* tab (blue cells) and every calculation, chart, the dashboard and the Gantt chart update. The tabs are *README*, *Inputs*, *Risk Calc*, *Control Analysis*, *Charts*, *Dashboard*, *Gantt*, *Bonus* and *Chart Data*.
-
-**Python scripts** (Python 3.9 or later):
-
-```bash
-pip install -r requirements.txt
-python scripts/risk_model.py        # prints the key results
-python scripts/make_charts.py       # regenerates charts/ and data/
-python scripts/build_briefing.py    # regenerates reports/Lab3b_Executive_Briefing.pdf
-```
-
-The workbook and the Python model give the same results: total ALE $35,000,000, risk reduction $26,962,500, residual exposure $8,037,500.
