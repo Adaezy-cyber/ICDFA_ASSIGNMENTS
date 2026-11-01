@@ -38,7 +38,7 @@ Acting as the GRC Audit Team, I was authorized to run a controlled, internal, be
 
 ### Step 1: Install GoPhish
 
-Downloaded the GoPhish v0.12.1 Linux release with `wget`, unzipped it, and launched the binary. The admin interface came up at `https://127.0.0.1:3333`.
+i downloaded the GoPhish v0.12.1 Linux release with `wget`, unzipped it, and launched the binary. The admin interface came up at `https://127.0.0.1:3333`.
 
 ![Downloading the GoPhish release archive via wget](evidence/Adeteye_Elizabeth_C11-26-CGRCE-17561_Week2_01_GoPhish_Download.png)
 *Downloading the GoPhish release archive via `wget`*
@@ -133,7 +133,7 @@ i monitored the GoPhish Dashboard in real time as the simulation progressed thro
 | Links Clicked | 1/1 | 100% | The recipient clicked through to the landing page without first verifying the link's destination. | Suggests a lack of "hover and verify" habit — a behavioral gap that email filtering alone would not close. |
 | Credentials Submitted | 1/1 | 100% | **Critical risk.** The recipient entered credentials into the simulated VPN login form, and GoPhish's server log confirms the captured submission (`POST /?rid=... 302`, redirecting to the configured post-submission page). | Multi-Factor Authentication (MFA) is the primary control that would limit the impact of this failure, since a password alone was sufficient to "complete" the simulated login. |
 
-**Note on sample size:** This simulation used a single test recipient (myself), which is appropriate for demonstrating the GoPhish workflow end-to-end but is **not statistically representative** of organizational-wide susceptibility. A production-grade assessment would require a representative sample of the target department (per the lab's own guidance, this would normally be a CSV import of a test department) before any of these rates could be generalized into an organizational risk rating. It's also worth noting methodologically that the 100% figures above come from a two-stage test: the first campaign run (landing page without capture enabled) validated the send/open/click pipeline, and a second run (landing page rebuilt with a genuine login form and capture enabled) produced the credential-submission data point — both are documented in the evidence trail above for transparency.
+**Note on sample size:** This simulation used a single test recipient (myself), which is appropriate for demonstrating the GoPhish workflow end-to-end but is **not statistically representative** of organizational-wide susceptibility. A production-grade assessment would require a representative sample of the target department (per the lab's own guidance, this would normally be a CSV import of a test department) before any of these rates could be generalized into an organizational risk rating. It's also worth noting methodologically that the 100% figures above come from a two-stage test: the first campaign run (landing page without capture enabled) validated the send/open/click pipeline, and a second run (landing page rebuilt with a genuine login form and capture enabled) produced the credential-submission data point, both are documented in the evidence trail above for transparency.
 
 ---
 
@@ -150,13 +150,13 @@ A controlled, single-recipient phishing simulation was conducted using GoPhish t
 
 ### 2. Key Findings & Metrics
 
-- **Email Open Rate:** 100% (1/1) — engagement with the themed pretext was immediate.
-- **Link Click-Through Rate:** 100% (1/1) — the recipient did not pause to verify the link before clicking.
-- **Credential Submission Rate:** 100% (1/1) — the recipient completed the simulated login, with the submission confirmed in GoPhish's server logs.
+- **Email Open Rate:** 100% (1/1) engagement with the themed pretext was immediate.
+- **Link Click-Through Rate:** 100% (1/1) the recipient did not pause to verify the link before clicking.
+- **Credential Submission Rate:** 100% (1/1) the recipient completed the simulated login, with the submission confirmed in GoPhish's server logs.
 
 ### 3. Risk Analysis
 
-Although the sample size here is too small to generalize, the full behavior chain observed — opening a themed email, clicking an embedded link without verification, and then entering credentials into the resulting page — is consistent with the industry-documented pattern that makes phishing the leading initial-access vector for breaches. If reproduced at the organizational level with a representative sample, similarly high rates across all three stages would expose the organization to:
+Although the sample size here is too small to generalize, the full behavior chain observed, opening a themed email, clicking an embedded link without verification, and then entering credentials into the resulting page which is consistent with the industry-documented pattern that makes phishing the leading initial-access vector for breaches. If reproduced at the organizational level with a representative sample, similarly high rates across all three stages would expose the organization to:
 
 - Initial network access for attackers via compromised credentials.
 - Downstream data breaches and financial loss.
@@ -164,8 +164,8 @@ Although the sample size here is too small to generalize, the full behavior chai
 
 ### 4. Recommended Actions
 
-- **Scale the test:** Re-run this simulation against a representative, approved test department (not a single recipient) so the 100% rates observed here can be validated — or contextualized — at a meaningful sample size.
-- **Accelerate MFA rollout:** Multi-Factor Authentication remains the single most effective technical control against the downstream impact of compromised credentials — this exercise demonstrated that a password alone was sufficient to "complete" the simulated login, with no second factor to stop it.
+- **Scale the test:** Re-run this simulation against a representative, approved test department (not a single recipient) so the 100% rates observed here can be validated or contextualized, at a meaningful sample size.
+- **Accelerate MFA rollout:** Multi-Factor Authentication remains the single most effective technical control against the downstream impact of compromised credentials, this exercise demonstrated that a password alone was sufficient to "complete" the simulated login, with no second factor to stop it.
 - **Revamp the training program:** Move from annual compliance videos toward continuous, scenario-based training that specifically reinforces "hover and verify" behavior before clicking.
 - **Integrate simulations into process:** Build phishing simulations into new-hire onboarding and run them quarterly for all staff, with results tracked over time as a trend metric rather than a one-off score.
 - **Update policy:** Ensure the Acceptable Use Policy (AUP) explicitly defines staff responsibilities for identifying and reporting suspected phishing attempts, including a clear, low-friction reporting channel.
