@@ -1,14 +1,13 @@
 # Lab runbook (for completing the lab once an environment is available)
 
-This runbook condenses the assignment brief into an ordered checklist. It is a plan, not a record of work done. **No step below has been performed yet** because the Ubuntu Server VM could not be built (device storage limited).
+This runbook condenses the assignment brief into an ordered checklist. It is a plan, not a record of work done. **No step below has been performed yet** because the Ubuntu Server VM could not be built because my device storage limited.
 
 Rules: use only fictional data and your own VMs; keep the lab on an isolated or host-only network; do not use bridged networking; save every output with its timestamp; never fabricate or edit evidence. If a control cannot be verified, record it as **unverified**, not failed.
 
-## 0. Prepare (free up space first)
+## 0. Prepare
 
 - Ubuntu Server 24.04 LTS ISO (about 2.5 GB). Check its SHA256 against the value on the download page.
 - Kali Linux VM. Both VMs: 2 vCPUs, 2 to 4 GB RAM, 25 GB disk.
-- If storage is the limit, put the VM folder on an external drive, or delete each ISO after installing.
 - Two adapters per VM: a temporary NAT adapter (package installs only) and a host-only/internal adapter (the lab network).
 - **Take a clean snapshot of both VMs before starting.**
 
