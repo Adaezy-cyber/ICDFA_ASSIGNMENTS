@@ -2,7 +2,7 @@
 
 **Status: empty on purpose.**
 
-The Ubuntu Server lab could not be built because the analyst's device does not have enough free storage to download the Ubuntu Server 24.04 LTS ISO and run the two required VMs. No lab commands have been run, so there are no genuine command outputs, logs, hashes or timestamps to store here.
+The Ubuntu Server lab could not be built because my device does not have enough free storage to download the Ubuntu Server 24.04 LTS ISO and run the two required VMs. No lab commands have been run, so there are no genuine command outputs, logs, hashes or timestamps to store here.
 
 Nothing in this folder has been simulated or fabricated, and none will be.
 
@@ -19,4 +19,3 @@ Save real outputs here using these names (they match the brief and the `Evidence
 | `nginx-access-log-extract.txt`, `ufw-block-log-extract.txt` | 9 |
 | `recovery-timing.txt`, `portal-before.sha256`, `restore-hash-check.txt` | 10 |
 
-Redact anything sensitive. Do not store passwords, private keys or VM disk images.
