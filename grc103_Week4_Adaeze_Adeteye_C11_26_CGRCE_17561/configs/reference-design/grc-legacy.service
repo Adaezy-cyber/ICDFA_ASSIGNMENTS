@@ -1,0 +1,11 @@
+# REFERENCE DESIGN ONLY - taken from the assignment brief (Step 2).
+# Not captured from a running system. Not deployed. Not tested.
+# Deliberately unnecessary lab-only service containing no real data.
+# Intended path on Ubuntu: /etc/systemd/system/grc-legacy.service
+[Unit]
+Description=GRC lab legacy endpoint
+[Service]
+User=www-data
+ExecStart=/usr/bin/python3 -m http.server 8080 --bind 0.0.0.0 --directory /srv/grc-legacy
+[Install]
+WantedBy=multi-user.target
