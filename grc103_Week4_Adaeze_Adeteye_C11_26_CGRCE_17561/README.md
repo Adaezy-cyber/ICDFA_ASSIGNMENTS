@@ -1,9 +1,9 @@
 # GRC103 Module 3: Technical Risk Treatment Lab
 
-**Course:** International Cybersecurity and Digital Forensics Academy (ICDFA), GRC103 Risk Assessment and Management Techniques
-**Scenario:** Northbridge Services (fictional organisation)
-**Author:** Adaeze Elizabeth Adeteye
-**Status as of 8 November 2026:** Partially complete. The hands-on server tasks were **not performed** (see the next section).
+**Course:** International Cybersecurity and Digital Forensics Academy (ICDFA), GRC103 Risk Assessment and Management Techniques   
+**Scenario:** Northbridge Services (fictional organisation)   
+**Author:** Adaeze Elizabeth Adeteye     
+**Status as of 8 November 2026:** Partially complete. The hands-on server tasks were **not performed**
 
 ---
 
@@ -24,7 +24,7 @@ I am requesting guidance from my course contact on whether an alternative is ava
 
 ## What this lab asks for
 
-The brief asks the student, acting as a GRC analyst and technical control implementer, to:
+The brief asks me to act as a GRC analyst and technical control implementer, to:
 
 1. Build a local two-VM lab (Ubuntu Server 24.04 LTS and Kali Linux) on an isolated network.
 2. Collect baseline evidence, and create a risk register (R1 to R4).
@@ -32,26 +32,6 @@ The brief asks the student, acting as a GRC analyst and technical control implem
 4. Apply **mitigation** by removing archive publication and restricting access with UFW.
 5. Validate **detection** (log correlation) and **correction** (backup and restore of a deleted dummy file).
 6. Model **transfer** and **acceptance**, and compare costs and remaining risk.
-
----
-
-## Status and evidence map
-
-| Step | Task | Status | Evidence in this repo |
-|---|---|---|---|
-| 1 | Prepare Ubuntu, install packages, record addresses | Not performed (environment unavailable) | None |
-| 2 | Create fictional content and legacy service | Not performed | None |
-| 3 | Configure Nginx lab site | Not performed | None |
-| 4 | Baseline scans and requests from Kali | Not performed | None |
-| 5 | Baseline risk register (R1 to R4) | Partially complete: proposed entries, evidence references pending | This README; workbook; report |
-| 6 | Avoidance: retire legacy service, rescan | Not performed (change record drafted below) | None |
-| 7 | Remove archive publication, verify 200/403 results | Not performed | None |
-| 8 | UFW restriction and blocked-source test | Not performed | None |
-| 9 | Log correlation (Nginx and UFW) | Not performed | None |
-| 10 | Backup, delete, restore, recovery time | Not performed | None |
-| Monitoring | Monitoring and handover plan | Proposed only, not measured | This README; workbook; report |
-| 11 | Transfer and acceptance decisions | Complete as analysis; no technical evidence | This README; report |
-| 12 | Cost comparison and ALE | Complete as analysis; figures are assumptions | This README; workbook; report |
 
 ---
 
@@ -78,7 +58,7 @@ The values below are my **analyst estimates based on the lab design described in
 
 - **Proposed change:** Disable the `grc-legacy` service and retain the approved portal.
 - **Business impact:** None expected, since the endpoint is unused and holds only dummy data. To be confirmed by test.
-- **Approval role:** Service owner. *Approval is simulated.*
+- **Approval role:** Service owner. Approval is simulated.
 - **Test:** Rescan ports 80 and 8080 from Kali; port 8080 should no longer respond while port 80 still serves the portal.
 - **Rollback:** `sudo systemctl enable --now grc-legacy`, then reapply the treatment and leave the endpoint disabled.
 - **Why this does not eliminate all risk:** Retiring the legacy workflow removes the exposure created by that service only. The remaining web service, its configuration, access controls and data still carry risk (R2, R3, R4).
@@ -184,27 +164,6 @@ These figures are assumptions given in the brief. A recovery test, had it been r
 3. Update the status table, replace "pending" evidence references with real file names, and add a residual risk reassessment based on the actual results.
 4. Add the evidence table (test ID, source IP, service, expected outcome, actual outcome, timestamp, log reference).
 
----
-
-## Repository contents
-
-```
-.
-├── README.md                          this file
-├── .gitignore                         blocks keys, VM images and ISOs
-├── report/
-│   └── GRC103_Technical_Risk_Treatment_Report.pdf   report with limitation statement and one-page management summary
-├── workbook/
-│   └── GRC103_Risk_Treatment_Workbook.xlsx          risk registers, cost analysis, ALE, evidence log template, recovery timing, monitoring plan
-├── runbook/
-│   └── lab-runbook.md                 ordered checklist for completing the lab
-├── configs/
-│   ├── README.md
-│   └── reference-design/              configurations from the brief: NOT deployed, NOT tested
-├── evidence/
-│   └── README.md                      empty on purpose: no lab was run
-└── screenshots/
-    └── README.md                      empty on purpose: no lab was run
 ```
 
 The `evidence/` and `screenshots/` folders hold no results because none exist. Files from the `reference-design/` folder are the intended design only and must not be read as proof that any control works.
