@@ -1,14 +1,20 @@
 # HSE ransomware risk treatment decision lab
 
-GRC103 | Module 3 Risk Treatment Strategies | Lab 2, International Cybersecurity and Digital Forensics Academy (ICDFA).
+GRC103 | Module 3 Risk Treatment Strategies
 
 **Author:** Adaeze Elizabeth Adeteye  
-**Registration number:** [ADD REGISTRATION NUMBER]  
+**Registration number:** C11/26/CGRCE/17561 
 **Source:** Health Service Executive, Cyber-attack and HSE response; last reviewed 1 December 2025; accessed 18 October 2026. <https://www2.hse.ie/services/cyber-attack/what-happened/>
 
-## What this is
+## What this Project is
 
-My advice to Northbridge Community Health, a fictional three-clinic provider, on spending a $100,000 first-year budget after the 2021 HSE ransomware attack. The brief gave me seven treatment options (A to G) and one rule I took seriously: do not count a control as working until it has been tested.
+Northbridge Community Health is a made-up healthcare provider with three clinics. It has $100,000 to spend in its first year on protecting itself from a ransomware attack like the one that hit Ireland’s Health Service Executive (HSE) in 2021.
+
+My job was to advise Northbridge on what to spend that money on. I was given seven possible actions (labelled A to G), and the total cost of all of them was more than the budget, so I had to choose.
+
+## The rule I followed
+
+A security measure only counts as protection once it has been tested and shown to work. Paying for something and assuming it works is not enough. For example, having backups does not help if nobody has ever tried restoring from them.
 
 ## Where to look
 
