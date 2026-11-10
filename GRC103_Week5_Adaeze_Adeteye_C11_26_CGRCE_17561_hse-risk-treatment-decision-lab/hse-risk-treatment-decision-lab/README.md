@@ -3,7 +3,7 @@
 GRC103 | Module 3 Risk Treatment Strategies
 
 **Author:** Adaeze Elizabeth Adeteye  
-**Registration number:** C11/26/CGRCE/17561 
+**Registration number:** C11/26/CGRCE/17561    
 **Source:** Health Service Executive, Cyber-attack and HSE response; last reviewed 1 December 2025; accessed 18 October 2026. <https://www2.hse.ie/services/cyber-attack/what-happened/>
 
 ## What this Project is
