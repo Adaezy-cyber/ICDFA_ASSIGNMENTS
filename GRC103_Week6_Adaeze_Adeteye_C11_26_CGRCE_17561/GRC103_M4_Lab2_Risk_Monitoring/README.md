@@ -1,4 +1,4 @@
-# GRC103 Module 4 Lab 2: Risk Monitoring Dashboard and Management Reporting
+# Risk Monitoring Dashboard and Management Reporting
 
 **Student:** Adaeze Elizabeth Adeteye  
 **Registration number:** C11/26/CGRCE/17561   
