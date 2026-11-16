@@ -1,8 +1,8 @@
 # GRC103 Module 4 Lab 2: Risk Monitoring Dashboard and Management Reporting
 
-**Student:** Adaeze Elizabeth Adeteye
-**Registration number:** [ADD REGISTRATION NUMBER]
-**Course:** ICDFA GRC103, Module 4 Risk Monitoring and Reporting
+**Student:** Adaeze Elizabeth Adeteye  
+**Registration number:** C11/26/CGRCE/17561   
+**Course:** ICDFA GRC103, Module 4 Risk Monitoring and Reporting   
 **Scenario:** Northbridge Services (fictional). I am the GRC analyst preparing the March view of control performance for the Head of Operations.
 
 > All figures are fictional. The thresholds and escalation rules are classroom exercise rules, not ICDFA policy. Three monthly observations cannot support a reliable long-term forecast.
