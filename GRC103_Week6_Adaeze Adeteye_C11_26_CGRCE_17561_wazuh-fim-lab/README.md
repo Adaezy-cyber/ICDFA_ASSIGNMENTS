@@ -1,8 +1,8 @@
 # GRC103 Lab Report: Practical Risk Monitoring with Wazuh
 
-**Course:** GRC103 - Risk Assessment and Management Techniques (ICDFA)
-**Module:** Practical Risk Assessment Workshop
-**Student:** Adaeze Elizabeth Adeteye
+**Course:** GRC103: Risk Assessment and Management Techniques   
+**Module:** Practical Risk Assessment Workshop    
+**Student:** Adaeze Elizabeth Adeteye    
 **Registration number:** C11/26/CGRCE/17561
 
 ## Repository contents
@@ -25,7 +25,7 @@
 
 This report documents the design of a detective control for the risk of unauthorised modification or deletion of sensitive financial forecast documents, using the open-source Wazuh platform for file integrity monitoring (FIM). It then answers the GRC workshop questions, linking the control to risk identification, treatment, monitoring and compliance.
 
-> **Statement of limitations.** I was unable to complete the live deployment of this lab because I could not get the Ubuntu Server (Wazuh manager) virtual machine into a usable state. Windows Smart App Control blocked a downloaded file, I could not recover the VM's login credentials, and the VM booted without a network connection (see `docs/execution_log_and_challenges.md`). As a result, Wazuh was **not installed**, no agent was registered, and no alerts were generated. The deployment steps below are the documented implementation procedure, and the results in Section 5 describe what the control is expected to produce. No alerts, screenshots or dashboard outputs are presented as observed results. `evidence/README.md` lists the evidence to capture on a successful run; those items are marked "Not captured". To compensate, I have added a complete control design and monitoring framework (`docs/monitoring_framework.md`) so the GRC content of the lab is still covered.
+> **Statement of limitations.** I was unable to complete the live deployment of this lab because I could not get the Ubuntu Server (Wazuh manager) virtual machine into a usable state. Windows Smart App Control blocked a downloaded file, I could not recover the VM's login credentials, and the VM booted without a network connection despite several attempts to get it done. Another attempt to redownload ends up in low storage (see `docs/execution_log_and_challenges.md`). As a result, Wazuh was **not installed**, no agent was registered, and no alerts were generated. The deployment steps below are the documented implementation procedure, and the results in Section 5 describe what the control is expected to produce. No alerts, screenshots or dashboard outputs are presented as observed results. `evidence/README.md` lists the evidence to capture on a successful run; those items are marked "Not captured". To compensate, I have added a complete control design and monitoring framework (`docs/monitoring_framework.md`) so the GRC content of the lab is still covered.
 
 ## 2. Scenario and Risk Statement
 
