@@ -1,0 +1,8 @@
+<!--
+  Add INSIDE the existing <syscheck> ... </syscheck> block of
+  C:\Program Files (x86)\ossec-agent\ossec.conf  (edit as Administrator)
+
+  Replace <YourName> with your Windows username.
+  Create the folder BEFORE restarting the agent.
+-->
+<directories realtime="yes">C:\Users\<YourName>\SensitiveFiles</directories>
