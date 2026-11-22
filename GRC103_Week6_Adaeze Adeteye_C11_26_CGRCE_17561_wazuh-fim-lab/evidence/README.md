@@ -2,7 +2,7 @@
 
 Status note: the Wazuh manager VM could not be brought up (see `../docs/execution_log_and_challenges.md`), so no evidence has been captured yet.
 
-Save screenshots in `screenshots/` using these names. Status stays "Not captured" until a real run is completed. Do not add images that were not taken from your own environment.
+Save screenshots in `screenshots/` using these names. Status stays "Not captured" until a real run is completed.
 
 | # | File name | What it must show | Status |
 | --- | --- | --- | --- |
@@ -14,6 +14,3 @@ Save screenshots in `screenshots/` using these names. Status stays "Not captured
 | 6 | `06_alert_file_modified.png` | Syscheck alert: file modified | Not captured |
 | 7 | `07_alert_file_deleted.png` | Syscheck alert: file deleted | Not captured |
 
-The script `scripts/03_simulate_risk_event.ps1` writes `simulation_log.csv` here, so you can match each alert to the action that caused it.
-
-If you update this table after a successful run, also update Sections 1, 5, 6 and 8 of the main `README.md` so it no longer says the deployment was not completed.
