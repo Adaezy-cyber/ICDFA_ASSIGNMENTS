@@ -1,7 +1,8 @@
 # Control Design and Monitoring Framework
 
-**Control:** File integrity monitoring (FIM) of the financial forecast folder using Wazuh
-**Control type:** Detective | **Risk addressed:** Unauthorised modification or deletion of sensitive financial forecast documents
+**Control:** File integrity monitoring (FIM) of the financial forecast folder using Wazuh   
+**Control type:** Detective |      
+**Risk addressed:** Unauthorised modification or deletion of sensitive financial forecast documents
 
 ## 1. Control objective and scope
 
