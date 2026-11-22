@@ -127,8 +127,8 @@ Wazuh records every monitored file event with a timestamp, agent, file path, act
 1. In the dashboard, open the file integrity monitoring view for the relevant agent.
 2. Set the time range to the audit period, for example the last quarter.
 3. Filter by the file path (`syscheck.path`) of the sensitive file.
-4. Show that no modified or deleted events exist for that file in the period, or that the only changes match approved change records.
-5. Show that the agent was active throughout the period, so an absence of alerts is not caused by a monitoring gap.
+4. !t should show that no modified or deleted events exist for that file in the period, or that the only changes match approved change records.
+5. It should show that the agent was active throughout the period, so an absence of alerts is not caused by a monitoring gap.
 6. Export or screenshot the results and attach them to the audit evidence file, noting the date and who ran the query.
 
 ## 8. Conclusion
